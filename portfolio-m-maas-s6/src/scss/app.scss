@@ -1,0 +1,12 @@
+// Base & utilities
+@import "utils/variables.scss";
+@import "utils/functions.scss";
+@import "utils/mixins.scss";
+
+// Global scss
+@import "global/reset.scss";
+@import "global/fonts.scss";
+@import "global/typography.scss";
+
+// Components
+@import "components/helloWorld.scss"
