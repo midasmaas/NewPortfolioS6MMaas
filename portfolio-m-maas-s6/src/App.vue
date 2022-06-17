@@ -1,16 +1,28 @@
 <template>
-  <div class="backGroundColor container" id="app">
+<div id="app">
+<hamburger-menu></hamburger-menu>
+  <div class="container">
     <div class="container_grid">
-      <nav>
-      <router-link to="/">OVER</router-link> |
-      <router-link to="/portfolio">PORTFOLIO</router-link>  |
-      <router-link to="/cv">CV</router-link>  |
-      <router-link to="/contact">CONTACT</router-link>  |
-    </nav>
-    <router-view/>
+    <router-view class="container_grid__nav_view"/>
+    <router-view class="container_grid__nav_view"/>
     </div>
   </div>
+</div>
 </template>
+<script>
+
+import HamburgerMenu from './components/HamburgerMenu.vue';
+
+export default {
+  name: 'App',
+
+  data: () => ({
+  }),
+  components: {
+    HamburgerMenu,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {

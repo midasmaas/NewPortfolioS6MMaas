@@ -1,9 +1,12 @@
-.container{
+.hamburger_container{
   display: grid;
+  //width: 100vw;
+  height: 100vh;
   justify-content: center;
 }
-.container_grid {
+.hamburger_container_grid {
     display: grid;
+    grid-template-rows: auto;
     
     @include media-breakpoint-up(xs){
       grid-template-columns: repeat(4, 70px);
@@ -16,7 +19,7 @@
     }
 
     @include media-breakpoint-up(xl){
-      grid-template-columns: repeat(12, 64px);
+      grid-template-columns: repeat(12, 50px);
       grid-column-gap: 32px;
     }
 
@@ -25,6 +28,19 @@
       grid-column-gap: 32px;
     }
   }
-  .container_grid__nav_view {
-    grid-column: 1/13;
+
+.hamburger_nav_container{
+  grid-column: 5/8;
+  height: 100vh;
+}  
+
+.hamburger_nav_container__items{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}  
+
+ nav a{
+    font-size: 168px;
+    font-weight: 400;
   }
