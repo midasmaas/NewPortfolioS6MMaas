@@ -1,10 +1,14 @@
 <template>
-  <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div class="backGroundColor container" id="app">
+    <div class="container_grid">
+      <nav>
+      <router-link to="/">OVER</router-link> |
+      <router-link to="/portfolio">PORTFOLIO</router-link>  |
+      <router-link to="/cv">CV</router-link>  |
+      <router-link to="/contact">CONTACT</router-link>  |
     </nav>
     <router-view/>
+    </div>
   </div>
 </template>
 

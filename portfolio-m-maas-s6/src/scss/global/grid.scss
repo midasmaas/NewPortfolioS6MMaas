@@ -1,8 +1,28 @@
-.grid {
+.container{
+  display: grid;
+  width: 100vw;
+  justify-content: center;
+}
+.container_grid {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 8px;
-    @media screen and (min-width: 920px) {
+    
+    @include media-breakpoint-up(xs){
+      grid-template-columns: repeat(4, 70px);
+      grid-column-gap: 8px;
+    }
+
+    @include media-breakpoint-up(sm){
+      grid-template-columns: repeat(8, 62px);
+      grid-column-gap: 16px;
+    }
+
+    @include media-breakpoint-up(xl){
+      grid-template-columns: repeat(12, 64px);
+      grid-column-gap: 32px;
+    }
+
+    @include media-breakpoint-up(xxxl){
+      grid-template-columns: repeat(12, 107px);
       grid-column-gap: 32px;
     }
   }
