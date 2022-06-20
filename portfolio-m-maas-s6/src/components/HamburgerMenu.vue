@@ -1,5 +1,32 @@
 <template>
-<div class="hamburger_container">
+<div>
+<!--Hamburgermenu gesloten BEGIN-->
+<div class="hamburger_container_GESLOTEN">
+  <div class="hamburger_container_grid">
+    <img class="hamburger_container_GESLOTEN__img" src="../assets/LogoHamburgerSVG.svg">
+    <a>
+      
+      <div class="parrent">
+        <div class="child">
+      </div>
+      </div> 
+    </a>
+  </div>
+</div>
+<!--Hamburgermenu gesloten EINDE-->
+
+<!--Hamburgermenu open BEGIN-->
+<div class="hamburger_container_OPEN">
+  <div class="hamburger_background_shadow"></div>
+  <div class="hamburger_background_container">
+    <div class="hamburger_background_outline">
+      <div class="hamburger_background_bar">
+        <div class="hamburger_background_bar_dot __right"></div>
+        <div class="hamburger_background_bar_dot"></div>
+        <div class="hamburger_background_bar_dot"></div>
+      </div>
+    </div>
+  </div>
   <nav class="hamburger_container_grid">
     <div class="hamburger_nav_container">
         <div class="hamburger_nav_container__items">
@@ -10,8 +37,9 @@
         </div>
     </div>
     </nav>
+  </div>
+<!--Hamburgermenu open EINDE-->
 </div>
-
 </template>
 
 <script>
