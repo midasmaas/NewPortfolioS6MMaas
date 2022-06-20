@@ -4,11 +4,11 @@
 <div class="hamburger_container_GESLOTEN">
   <div class="hamburger_container_grid">
     <img class="hamburger_container_GESLOTEN__img" src="../assets/LogoHamburgerSVG.svg">
-    <a>
-      
-      <div class="parrent">
-        <div class="child">
-      </div>
+    <a class="hamburger_button__parent">
+        <div class="hamburger_button__child">
+          <div class="top"></div>
+          <div></div>
+          <div class="bottom"></div>
       </div> 
     </a>
   </div>

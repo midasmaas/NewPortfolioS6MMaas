@@ -39,21 +39,46 @@
   max-height: 100%;
 }
 
-
-.child{
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: pink;
-  height: 50px;
-  width: 50px;
+.hamburger_button__parent{
+  position: relative;
+  background-image: url("assets/rectSVG.svg");
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
 }
 
-.parrent{
-  position: relative;
-  background-color: rgb(192, 255, 206);
-  height: 150px;
-  width: 150px;
+.hamburger_button__child{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  height: 88px;
+  width: 88px;
+  border: solid 8px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all .15s linear .15s;
+  &:hover{
+    top: 15px;
+    right: 15px;
+  }
+
+  div{
+    width: 55px;
+    height: 10px;
+    background-color: black;
+    margin: 5px 0;
+  }
+
+  div.top {
+    margin-top: 10px;
+  }
+
+  div.bottom {
+    margin-bottom: 10px;
+  }
 }
 
 //Hamburger menu open
