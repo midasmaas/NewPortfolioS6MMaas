@@ -41,14 +41,23 @@
 
 .hamburger_button__parent{
   position: relative;
+  cursor: pointer;
+}
+
+.hamburger_button__parent_background{
+  position: absolute;
   background-image: url("assets/rectSVG.svg");
   object-fit: cover;
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
+  z-index: 3;
+  top: 15px;
+  right: 15px;
 }
 
 .hamburger_button__child{
   position: absolute;
+  z-index: 5;
   top: 0;
   right: 0;
   background-color: white;
@@ -88,9 +97,7 @@
   height: 100vh;
   justify-content: center;
   position: absolute;
-  z-index: 100;
-  display: none;
-  
+  z-index: 100;  
 }
 
 .hamburger_nav_container{

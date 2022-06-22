@@ -4,7 +4,8 @@
 <div class="hamburger_container_GESLOTEN">
   <div class="hamburger_container_grid">
     <img class="hamburger_container_GESLOTEN__img" src="../assets/LogoHamburgerSVG.svg">
-    <a class="hamburger_button__parent">
+    <a @click="hamburgerOpen = true" class="hamburger_button__parent">
+      <div class="hamburger_button__parent_background"></div>
         <div class="hamburger_button__child">
           <div class="top"></div>
           <div></div>
@@ -16,12 +17,12 @@
 <!--Hamburgermenu gesloten EINDE-->
 
 <!--Hamburgermenu open BEGIN-->
-<div class="hamburger_container_OPEN">
+<div v-if="hamburgerOpen" class="hamburger_container_OPEN">
   <div class="hamburger_background_shadow"></div>
   <div class="hamburger_background_container">
     <div class="hamburger_background_outline">
       <div class="hamburger_background_bar">
-        <div class="hamburger_background_bar_dot __right"></div>
+        <div @click="hamburgerOpen = false" class="hamburger_background_bar_dot __right"></div>
         <div class="hamburger_background_bar_dot"></div>
         <div class="hamburger_background_bar_dot"></div>
       </div>
@@ -46,6 +47,18 @@
 
 export default {
   name: 'HamburgerMenu',
+  data() {
+    return{
+      hamburgerOpen: false,
+    };
+  },
+  watch: {
+    $route(to, from) {
+      if (to !== from) {
+        this.hamburgerOpen = false;
+      }
+    },
+  },
 };
 </script>
 
