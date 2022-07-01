@@ -1,6 +1,7 @@
 .container{
   display: grid;
   justify-content: center;
+  grid-auto-rows: auto;
 }
 .container_grid {
     display: grid;
@@ -8,21 +9,30 @@
     @include media-breakpoint-up(xs){
       grid-template-columns: repeat(4, 70px);
       grid-column-gap: 8px;
+      padding-top: 147px;
     }
-
     @include media-breakpoint-up(sm){
       grid-template-columns: repeat(8, 62px);
+      grid-column-gap: 8px;
+      padding-top: 135px;
+    }
+  
+    @include media-breakpoint-up(md){
+      grid-template-columns: repeat(8, 62px);
       grid-column-gap: 16px;
+      padding-top: 167px;
     }
-
-    @include media-breakpoint-up(xl){
-      grid-template-columns: repeat(12, 64px);
+  
+    @include media-breakpoint-up(xxl){
+      grid-template-columns: repeat(12, 80px);
       grid-column-gap: 32px;
+      padding-top: 195px;
     }
-
+  
     @include media-breakpoint-up(xxxl){
       grid-template-columns: repeat(12, 107px);
       grid-column-gap: 32px;
+      padding-top: 240px;
     }
   }
   .container_grid__nav_view {

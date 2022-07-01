@@ -1,17 +1,14 @@
 <template>
 <div id="app">
 <hamburger-menu></hamburger-menu>
-  <div class="container">
-    <div class="container_grid">
     <router-view class="container_grid__nav_view"/>
-    <router-view class="container_grid__nav_view"/>
-    </div>
-  </div>
+  <footer-bottom></footer-bottom>
 </div>
 </template>
 <script>
 
 import HamburgerMenu from './components/HamburgerMenu.vue';
+import footerBottom from './components/footerBottom.vue';
 
 export default {
   name: 'App',
@@ -20,6 +17,7 @@ export default {
   }),
   components: {
     HamburgerMenu,
+    footerBottom
   },
 };
 </script>

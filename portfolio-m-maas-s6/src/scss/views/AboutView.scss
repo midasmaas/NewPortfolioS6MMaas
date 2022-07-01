@@ -1,0 +1,51 @@
+.headline_container {
+    grid-column: 1/8;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.headline_container_background_shadow {
+    position: absolute;
+    z-index: -5;
+    background-image: url("assets/BGSchaduw.png");
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.headline_container_background_outline{
+    border: 8px solid;
+    height: 100%;
+    width: 95%;
+    background-color: white;
+    align-self: center;
+    display: grid;
+} 
+
+.headline_container_background_bar{
+    align-self: start;
+    width: 100%;
+    height: 48px;
+    border-bottom: 8px solid;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+  
+  
+.headline_container_background_bar_dot{
+    width: 16px;
+    height: 16px;
+    background: $brand-color;
+    border-radius: 50%;
+    margin: 0 4px
+  }
+
+
+.avatar {
+    grid-column: 9/12;
+    width: 100%;
+    height: 500px;
+    background-color: green;
+}

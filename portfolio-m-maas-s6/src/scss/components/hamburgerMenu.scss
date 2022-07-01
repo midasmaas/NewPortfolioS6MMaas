@@ -2,19 +2,24 @@
 .hamburger_container_grid {
   display: grid;
   grid-template-rows: auto;
+  align-items: end;
   
   @include media-breakpoint-up(xs){
     grid-template-columns: repeat(4, 70px);
     grid-column-gap: 8px;
   }
-
   @include media-breakpoint-up(sm){
+    grid-template-columns: repeat(8, 62px);
+    grid-column-gap: 8px;
+  }
+  
+  @include media-breakpoint-up(md){
     grid-template-columns: repeat(8, 62px);
     grid-column-gap: 16px;
   }
 
   @include media-breakpoint-up(xxl){
-    grid-template-columns: repeat(12, 64px);
+    grid-template-columns: repeat(12, 80px);
     grid-column-gap: 32px;
   }
 
@@ -28,10 +33,15 @@
 .hamburger_container_GESLOTEN{
   display: grid;
   width: 99vw;
-  height: 100vh;
+  height: 15vh;
   justify-content: center;
   position: absolute;
   z-index: 100;
+  padding-top: 32px;
+  @include media-breakpoint-up(lg){
+    padding-top: 64px;
+  }
+
 }
 .hamburger_container_GESLOTEN__img{
   grid-column: 1/1;
@@ -42,6 +52,7 @@
 .hamburger_button__parent{
   position: relative;
   cursor: pointer;
+
 }
 
 .hamburger_button__parent_background{
@@ -51,42 +62,82 @@
   height: 90px;
   width: 90px;
   z-index: 3;
-  top: 15px;
-  right: 15px;
+  bottom: 0;
+  left: 0;
+  @include media-breakpoint-up(xs){
+    width: 58px;
+    height: 58px;
+  }
+
+  @include media-breakpoint-up(sm){
+    width: 52px;
+    height: 52px;
+  }
+
+  @include media-breakpoint-up(xxl){
+    width: 67px;
+    height: 67px;
+  }
+
+  @include media-breakpoint-up(xxxl){
+    width: 89px;
+    height: 89px;
+  }
 }
 
 .hamburger_button__child{
   position: absolute;
   z-index: 5;
-  top: 0;
-  right: 0;
+  bottom: 8px;
+  left: 10px;
   background-color: white;
-  height: 88px;
   width: 88px;
+  height: 88px;
   border: solid 8px black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   transition: all .15s linear .15s;
   &:hover{
-    top: 15px;
-    right: 15px;
+    bottom: 0;
+    left: 0;
   }
 
+
+// Streepjes in de button
   div{
-    width: 55px;
-    height: 10px;
+    width: 80%;
+    height: 8px;
     background-color: black;
-    margin: 5px 0;
   }
 
   div.top {
-    margin-top: 10px;
+    margin-top: 3px;
   }
 
   div.bottom {
-    margin-bottom: 10px;
+    margin-bottom: 3px;
+  }
+
+  @include media-breakpoint-up(xs){
+    width: 58px;
+    height: 58px;
+  }
+
+  @include media-breakpoint-up(sm){
+    width: 52px;
+    height: 52px;
+  }
+
+  @include media-breakpoint-up(xxl){
+    width: 67px;
+    height: 67px;
+  }
+
+  @include media-breakpoint-up(xxxl){
+    width: 89px;
+    height: 89px;
   }
 }
 
@@ -171,5 +222,36 @@
 
 .__right{
   margin-right: 8px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: all .15s linear .15s;
+  &:hover{
+    width: 32px;
+    height: 32px;
+    .before,
+    .after {
+      height: 4px;
+  }
+  }
+  //Wegklik kruisje
+  .before,
+  .after {
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 2px;
+    background-color: white;
+    border-radius: 0;
+    top: 45%;
+    transition: all .15s linear .15s;
+}
+.before{
+  transform: rotate(-45deg);
+}
+.after{
+  transform: rotate(45deg);
+}
+
 }
 
