@@ -45,6 +45,9 @@
     h1{
         font-size: 80px;
     }
+    span{
+      color: $brand-color;
+    }
 }
 
 .headline_container_background_bar{
@@ -152,4 +155,61 @@
   margin-left: 150px;
   margin-top: -100px;
   //position: absolute;
+}
+
+.journalistiek_IMG_container{
+  grid-column: 1/6;
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.journalistiek_banner_container {
+  grid-column: 7/13;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  justify-items: end;
+  display: grid;
+  grid-auto-columns: auto;
+}
+
+.ICT_banner_container {
+  grid-column: 1/7;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  justify-items: end;
+  display: grid;
+  grid-auto-columns: auto;
+}
+
+.ICT_IMG_container{
+  grid-column: 9/13;
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.Stage_IMG_container{
+  grid-column: 1/6;
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.Stage_banner_container {
+  grid-column: 7/13;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  justify-items: end;
+  display: grid;
+  grid-auto-columns: auto;
 }
