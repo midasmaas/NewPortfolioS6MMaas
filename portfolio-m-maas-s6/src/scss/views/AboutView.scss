@@ -1,73 +1,3 @@
-
-.headline_banner_container {
-    grid-column: 1/8;
-    width: 100%;
-    height: fit-content;
-    position: relative;
-    justify-items: end;
-    display: grid;
-    grid-auto-columns: auto;
-}
-
-.headline_container_background_shadow {
-    position: absolute;
-    z-index: -5;
-    background-image: url("assets/BGSchaduw.png");
-    object-fit: cover;
-    height: 95%;
-    width: 98%;
-    left: 0;
-    bottom: 0px;
-}
-
-.headline_container_background_outline{
-    border: 8px solid;
-    height: 98%;
-    width: 99%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-} 
-
-
-.headline__text{
-    display: flex;
-    flex-direction: column;
-    padding: 32px;
-    h2{
-        font-size: 40px;
-    }
-
-    .accent{
-        color: $brand-color;
-    }
-
-    h1{
-        font-size: 80px;
-    }
-    span{
-      color: $brand-color;
-    }
-}
-
-.headline_container_background_bar{
-    align-self: start;
-    width: 100%;
-    height: 48px;
-    border-bottom: 8px solid;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-  
-  
-.headline_container_background_bar_dot{
-    width: 16px;
-    height: 16px;
-    background: $brand-color;
-    border-radius: 50%;
-    margin: 0 4px
-  }
 .headline_IMG{
   position: absolute;
   right: -25%;
@@ -166,25 +96,6 @@
   }
 }
 
-.journalistiek_banner_container {
-  grid-column: 7/13;
-  width: 100%;
-  height: fit-content;
-  position: relative;
-  justify-items: end;
-  display: grid;
-  grid-auto-columns: auto;
-}
-
-.ICT_banner_container {
-  grid-column: 1/7;
-  width: 100%;
-  height: fit-content;
-  position: relative;
-  justify-items: end;
-  display: grid;
-  grid-auto-columns: auto;
-}
 
 .ICT_IMG_container{
   grid-column: 9/13;
@@ -204,12 +115,100 @@
   }
 }
 
-.Stage_banner_container {
-  grid-column: 7/13;
+
+
+
+
+.Specs_banner_Title{
+  width: 100%;
+  border-bottom: 8px solid;
+  text-align: center;
+}
+
+.Specs_banner_columns_container{
   width: 100%;
   height: fit-content;
-  position: relative;
-  justify-items: end;
-  display: grid;
-  grid-auto-columns: auto;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+}
+
+.Specs_banner_columns_collumn{
+  width: 50%;
+  height: fit-content;
+}
+
+._left{
+  border-right: solid black 8px;
+}
+
+.Specs_banner_columns_collumn_text{
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  h1{
+    font-size: 64px;
+  }
+
+  span{
+    color: $brand-color;
+  }
+
+  h2{
+    font-size: 56px;
+    color: $brand-color;
+  }
+  li{
+    font-size: 32px;
+    list-style: none;
+  }
+  ul{
+    line-height: 250%;
+  }
+
+  ul li::before {
+    content: "•"; 
+    color: $brand-color;
+    font-weight: bold;
+    display: inline-block; 
+    width: 0.8em;
+    //margin-left: -1em;
+    font-size: 1.5em;
+    vertical-align: middle;
+  }
+  
+  
+}
+.Goudpot_IMG_container{
+  grid-column: 5/9;
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Banners
+.Slot_banner {
+  grid-column: 1/13;
+}
+
+.journalistiek_banner {
+  grid-column: 7/13;
+}
+
+.ICT_banner {
+  grid-column: 1/7;
+}
+
+.Stage_banner {
+  grid-column: 7/13;
+}
+
+.headline_banner {
+  grid-column: 1/8;
+}
+
+.Specs_banner {
+  grid-column: 4/10 ;
 }
