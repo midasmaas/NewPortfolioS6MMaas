@@ -1,0 +1,59 @@
+.Ipod_container{
+    grid-column: 8/13;
+    position: relative;
+}
+
+.Ipod_banner{
+    width: 100%;
+    height: auto;
+}
+
+.Ipod_menu{
+    position: absolute;
+    z-index: -1;
+    width: 67%;
+    height: 59%;
+    background-color: white;
+    top: 8%;
+    left: 17%;
+    display: flex;
+    flex-direction: column;
+    p{
+        font-family: 'VT323', monospace;
+        font-size: 32px;
+        }
+
+        li{
+                font-family: 'VT323', monospace;
+                font-size: 32px;
+        }
+        ul{
+            padding-left: 32px;
+        }
+}
+
+.Ipod_menu_status_bar{
+    align-self: start;
+    width: 100%;
+    height: 48px;
+    border-bottom: 4px solid;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+    img{
+        padding-right: 16px;
+    }
+}
+
+.Ipod_menu_status_bar_alignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.Ipod_menu_list{
+    list-style: none;
+}

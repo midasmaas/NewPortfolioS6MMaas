@@ -1,0 +1,150 @@
+// Banner BEGIN
+.CVInfo_container {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    justify-items: end;
+    display: grid;
+    grid-auto-columns: auto;
+  }
+
+  .CVInfo_container_background_shadow {
+    position: absolute;
+    z-index: -5;
+    background-image: url("assets/BGSchaduw.png");
+    object-fit: cover;
+    height: 95%;
+    width: 98%;
+    left: 0;
+    bottom: 0px;
+}
+
+.CVInfo_container_background_outline{
+    border: 8px solid;
+    border-bottom: none;
+    height: 100%;
+    width: 99%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+} 
+
+
+.Banner__text{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    h2{
+        font-size: 56px;
+    }
+    p{
+        font-size: 32px;
+    }
+    span{
+      color: $brand-color;
+    }
+    ._TagLine{
+        display: flex;
+        flex-direction: row;
+
+        ._TagLine_Text{
+            padding-right: 16px;
+        }
+
+        .bar{
+            width: 50%;
+            height: 55%;
+            background: $brand-color;
+            align-self: center;
+        }
+    }
+}
+
+.CheckIt_button__parent{
+    position: relative;
+    width: 30%;
+}
+  
+  .CheckIt_button__child{
+    background-color: $brand-color;
+    align-self: flex-start;
+    border: solid 8px black;
+    white-space: nowrap;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    transition: all .15s linear .15s;
+    width: 30%;
+    height: fit-content;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    p{
+      color: white;
+      padding: 32px 0 32px 0;
+      font-size: 32px;
+      
+    }
+  }
+
+  .CVInfo_banner {
+    grid-column: 2/7;
+  }
+
+.CVInfo_bottomBar_container{
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.CVInfo_bottomBar{
+    display: flex;
+    flex-direction: column;
+    border: solid 8px black;
+    border-right: none;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    p {
+        font-size: 32px;
+    }
+
+    span{
+        color: $brand-color;
+        margin-left: auto;
+    }
+}
+
+._JaarInfo{
+    width: 45%;
+}
+
+._BasisInfo{
+    width: 25%;
+}
+
+._Button{
+    width: 30%;
+}
+
+.CV_Info_bottomBar_alignDiv{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.CVInfo_banner_Year{
+writing-mode: vertical-rl;
+text-orientation: upright;
+position: absolute;
+right: -35px;
+top: 0;
+font-size: 40px;
+color: $brand-color;
+}
+// Banner EINDE
