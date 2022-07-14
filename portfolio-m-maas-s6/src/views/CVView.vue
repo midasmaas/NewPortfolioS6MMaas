@@ -3,9 +3,6 @@
     <div class="container_grid">
       <footer-bottom-copy :dataForBanner="cvData"></footer-bottom-copy>
       <ipod-copy :dataForIpod="ipodData"></ipod-copy>
-      <ul class="testJson" v-for="(job, key) in cvData" :key="key">
-        {{ job.jobTitle }}
-      </ul>
     </div>
   </div>
 </template>

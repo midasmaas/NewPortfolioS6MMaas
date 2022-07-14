@@ -26,7 +26,7 @@
 export default {
   name: "IpodCopy",
   props: {
-    dataForIpod: Object,
+    dataForIpod: Array,
   }
 };
 </script>
