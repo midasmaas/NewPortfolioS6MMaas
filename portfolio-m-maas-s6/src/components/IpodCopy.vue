@@ -2,6 +2,7 @@
   <div class="Ipod_container">
     <img class="Ipod_banner" src="../assets/IpodBanner.png" />
 
+    <div class="Ipod_menu_background"></div>
     <div class="Ipod_menu">
       <div class="Ipod_menu_status_bar">
         <div class="Ipod_menu_status_bar_alignment">
@@ -10,11 +11,12 @@
         </div>
 
       </div>
-      <ul class="Ipod_menu_list">
-          <li>Aardschok</li>
-          <li>The Daily Indie</li>
-          <li>Beter Bed</li>
-          <li>Partout Agency</li>
+      <ul class="Ipod_menu_list" v-for="(link, key) in dataForIpod" :key="key">
+          
+            <router-link active-class="active-ipod" class="Ipod_menu_link" :to="{ name: 'CVView', params: {jobid: key}}">
+              {{link.jobTitle}}
+            </router-link>
+          
         </ul>
     </div>
   </div>
@@ -23,5 +25,8 @@
 <script>
 export default {
   name: "IpodCopy",
+  props: {
+    dataForIpod: Object,
+  }
 };
 </script>

@@ -1,0 +1,38 @@
+[
+    {
+        "jobTitle": "Aardschok",
+        "jobSubTitle": "Hardrock magazine",
+        "jobDescription": "Ik schreef recensies, interviews en verslagen voor Nederlands enige fysieke hardrock-magazine.",
+        "jobBasis": "Free-lance",
+        "jobDuur": "02-2017 t/m 06-2022",
+        "jobLink": "https://midasmaas.fhj.nl/interview/parkway-drive-de-tragiek-de-politiek-en-de-muziek/",
+        "jobJaar": "2017"
+    },
+    {
+        "jobTitle": "The Daily Indie",
+        "jobSubTitle": "Online indie magazine",
+        "jobDescription": "Ik schreef recensies, interviews en verslagen voor online magazine The Daily Indie",
+        "jobBasis": "Free-lance",
+        "jobDuur": "02-2018 t/m 06-2020",
+        "jobLink": "https://www.thedailyindie.nl/thomas-azier-de-enige-manier-om-niet-gek-te-worden-is-om-aan-de-boom-te-schudden-en-alles-eruit-te-flikkeren-wat-ik-niet-nodig-heb/",
+        "jobJaar": "2018"
+    },
+    {
+        "jobTitle": "Beter Bed",
+        "jobSubTitle": "Beddenzaak",
+        "jobDescription": "Naast mijn studie werk ik tegenwoordig als verkoper bij deze beddenzaak in Tilburg. Verkopen is een vaardigheid waarin de klantwens centraal staat.",
+        "jobBasis": "Part-time",
+        "jobDuur": "08-2020 t/m heden",
+        "jobLink": "https://www.beterbed.nl/winkel/noord-brabant/tilburg",
+        "jobJaar": "2020"
+    },
+    {
+        "jobTitle": "Partout Agency",
+        "jobSubTitle": "Full-service internet agency",
+        "jobDescription": "Ik liep stage als designer en front-end-developer. Zo ontwierp en bouwde ik een onboardingwebsite in Vue",
+        "jobBasis": "Stage",
+        "jobDuur": "08-2021 t/m 02-2022",
+        "jobLink": "https://www.partout.nl/",
+        "jobJaar": "2021"
+    }
+]

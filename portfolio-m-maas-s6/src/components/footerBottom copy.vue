@@ -4,12 +4,12 @@
 
         <div class="CVInfo_container_background_outline">
           <div class="Banner__text">
-            <h2>Aardschok</h2>
+            <h2>{{dataForBanner.jobTitle}}</h2>
             <div class="_TagLine">
-              <p class="_TagLine_Text"><span>Hardrock magazine</span></p>
+              <p class="_TagLine_Text"><span>{{dataForBanner.jobSubTitle}}</span></p>
               <span class="bar"></span>
             </div>
-            <p>Ik schreef recensies, interviews en verslagen voor Nederlands enige fysieke hardrock-magazine.</p>
+            <p>{{dataForBanner.jobDescription}}</p>
           </div>
           
         </div>
@@ -17,22 +17,22 @@
           <div class="CVInfo_bottomBar _BasisInfo">
             <div class="CV_Info_bottomBar_alignDiv">
               <p><span>Basis</span></p>
-            <p>Free-lance</p>
+            <p>{{dataForBanner.jobBasis}}</p>
             </div>
           </div>
           <div class="CVInfo_bottomBar _JaarInfo">
             <div class="CV_Info_bottomBar_alignDiv">
             <p><span>Duur</span></p>
-            <p>02-2018 t/m 06-2022</p>
+            <p>{{dataForBanner.jobDuur}}</p>
             </div>
           </div>
-          <div class="CheckIt_button__child">
+          <a :href="dataForBanner.jobLink" target="_blank" rel="noopener noreferrer" class="CheckIt_button__child">
             <p>> Check it!</p>
-        </div>
+        </a>
         </div>
 
         <p class="CVInfo_banner_Year">
-          2018
+          {{dataForBanner.jobJaar}}
         </p>
       </div>
 </template>
@@ -40,5 +40,8 @@
 <script>
 export default {
   name: "footerBottomCopy",
+  props: {
+    dataForBanner: Object,
+  }
 };
 </script>

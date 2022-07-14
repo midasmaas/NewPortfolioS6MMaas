@@ -42,7 +42,7 @@
           <div class="hamburger_nav_container__items">
             <router-link to="/">OVER</router-link>
             <router-link to="/portfolio">PORTFOLIO</router-link>
-            <router-link to="/cv">CV</router-link>
+            <router-link to="/cv/0">CV</router-link>
             <router-link to="/contact">CONTACT</router-link>
           </div>
         </div>

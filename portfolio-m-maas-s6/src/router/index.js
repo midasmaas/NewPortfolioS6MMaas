@@ -21,7 +21,7 @@ const routes = [
     component: PortfolioView
   },
   {
-    path: '/cv',
+    path: '/cv/:jobid',
     name: 'CVView',
     component: CVView
   },
@@ -34,7 +34,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history',
 })
 
 export default router
