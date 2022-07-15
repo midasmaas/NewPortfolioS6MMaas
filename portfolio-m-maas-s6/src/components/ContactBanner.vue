@@ -1,5 +1,6 @@
 <template>
-  <div class="ContactBanner_container ContactBanner_banner">
+  <div class="align_div ContactBanner_banner">
+  <div class="ContactBanner_container ">
     
 
     <div class="ContactBanner_container_background_outline">
@@ -21,7 +22,7 @@
     </div>
     <div class="ContactBanner_bottomBar_container">
         <div class="ContactBanner_container_background_shadow"></div>
-      <div class="ContactBanner_bottomBar">
+      <div class="ContactBanner_bottomBar _Icon_left">
           <img class="_icon" src="../assets/WAIcon.png" />
       </div>
       <div class="ContactBanner_bottomBar ">
@@ -34,6 +35,7 @@
           <img class="_icon" src="../assets/LIIcon.png" />
       </div>
     </div>
+  </div>
   </div>
 </template>
 

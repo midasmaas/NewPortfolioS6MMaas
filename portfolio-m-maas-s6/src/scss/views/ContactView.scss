@@ -1,0 +1,29 @@
+.Contact_avatar_container {
+    
+}
+
+.Contact_avatar_IMG{
+  width: 352px;
+  left: -10px;
+  grid-column: 1/3;
+    position: absolute;
+    z-index: -5;
+    bottom: 0;
+  //position: absolute;
+  
+}
+
+.Contact_phone_IMG_container{
+    grid-column: 8/13;
+    position: relative;
+    height: fit-content;
+}
+
+.Contact_phone_IMG{
+    grid-column: 8/13;
+    height: 700px;
+    right: -80px;
+    left: 15%;
+	position: relative;
+	right: 50%;
+  }
