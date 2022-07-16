@@ -17,8 +17,11 @@
 @import "components/IpodCopy.scss";
 @import "components/CVBannerText.scss";
 @import "components/ContactBanner.scss";
+@import "components/PortfolioProductBanner";
+
 
 // Views
 @import "views/AboutView.scss";
-@import "views/CVView.scss";
 @import "views/ContactView.scss";
+@import "views/PortfolioView.scss";
+@import "views/PortfolioProductView.scss";

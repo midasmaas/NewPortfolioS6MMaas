@@ -20,7 +20,7 @@
             <p>{{dataForBanner.jobBasis}}</p>
             </div>
           </div>
-          <div class="CVInfo_bottomBar _JaarInfo">
+          <div class="CVInfo_bottomBar _DuurInfo">
             <div class="CV_Info_bottomBar_alignDiv">
             <p><span>Duur</span></p>
             <p>{{dataForBanner.jobDuur}}</p>

@@ -14,6 +14,7 @@ import FooterBottomCopy from '../components/footerBottom copy.vue';
 
 //Data
 import cvJson from '../json-data/cv.json'
+
 export default {
   name: "CVView",
   components: {

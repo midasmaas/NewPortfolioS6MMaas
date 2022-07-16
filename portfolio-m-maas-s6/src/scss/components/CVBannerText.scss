@@ -1,9 +1,10 @@
 // Banner BEGIN
-.align_div{
+.align_div {
     height: 100%;
     display: grid;
     align-items: center;
 }
+
 .CVInfo_container {
     width: 100%;
     height: fit-content;
@@ -17,11 +18,11 @@
     position: absolute;
     z-index: -5;
     background-color: white;
-  background-image: radial-gradient(black 30%, transparent 11%),
-    radial-gradient(black 30%, transparent 11%);
-  background-size: 10px 10px;
-  background-position: 0 0, 5px 5px;
-  background-repeat: repeat;
+    background-image: radial-gradient(black 30%, transparent 11%),
+        radial-gradient(black 30%, transparent 11%);
+    background-size: 10px 10px;
+    background-position: 0 0, 5px 5px;
+    background-repeat: repeat;
     height: 100%;
     width: 100%;
     top: 8px;
@@ -137,12 +138,14 @@
     }
 }
 
-._JaarInfo {
+._DuurInfo {
     width: 45%;
+    border-right: none !important;
 }
 
 ._BasisInfo {
     width: 25%;
+    border-left: solid 8px black !important;
 }
 
 ._Button {

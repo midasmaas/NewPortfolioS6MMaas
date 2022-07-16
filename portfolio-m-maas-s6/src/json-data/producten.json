@@ -1,0 +1,28 @@
+[
+    {
+        "productTitle": "Omroep Flevoland",
+        "productDescription": "Een nieuwe UX/UI voor het redactieportaal van Omroep Flevoland.",
+        "productSubTitle": "UI/UX, FIREBASE, VUE.JS",
+        "productThumbnail": "OmroepFlevoZW.png"
+    },
+    {
+        "productTitle": "Deze website",
+        "productDescription": "Een ware 3.0-versie van mijn portfoliowebsite",
+        "productSubTitle": "UI/UX, VUE.JS, Brand-design",
+        "productThumbnail": "OmroepFlevoZW.png"
+    },
+    {
+        "productTitle": "BuBo",
+        "productDescription": "Een concept voor een start-up om voedselverspilling te verminderen",
+        "productSubTitle": "Concept design, visual design",
+        "productThumbnail": "OmroepFlevoZW.png"
+    },
+    {
+        "productTitle": "Onboardingwebsite Partout",
+        "productDescription": "Een onboardingwebsite voor internet agency Partout",
+        "productSubTitle": "UI/UX, VUE.JS, VueX",
+        "productThumbnail": "OmroepFlevoZW.png"
+    }
+
+]
+

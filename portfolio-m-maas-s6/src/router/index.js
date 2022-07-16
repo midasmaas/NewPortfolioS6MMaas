@@ -3,9 +3,12 @@ import VueRouter from 'vue-router'
 
 // main views
 import AboutView from '../views/AboutView.vue'
-import PortfolioView from '../views/PortfolioView.vue'
 import CVView from '../views/CVView.vue'
 import ContactView from '../views/ContactView.vue'
+
+// portfolio views
+import PortfolioView from '../views/PortfolioView.vue'
+import PortfolioProductView from '../views/PortfolioProductView.vue'
 
 Vue.use(VueRouter)
 
@@ -14,11 +17,6 @@ const routes = [
     path: '/',
     name: 'over',
     component: AboutView
-  },
-  {
-    path: '/portfolio',
-    name: 'PortfolioView',
-    component: PortfolioView
   },
   {
     path: '/cv/:jobid',
@@ -30,7 +28,16 @@ const routes = [
     name: 'ContactView',
     component: ContactView
   },
-
+  {
+    path: '/portfolio',
+    name: 'PortfolioView',
+    component: PortfolioView,
+  },
+  {
+    path: '/portfolio/product/:productid',
+    name: 'PortfolioProductView',
+    component: PortfolioProductView
+  }
 ]
 
 const router = new VueRouter({
