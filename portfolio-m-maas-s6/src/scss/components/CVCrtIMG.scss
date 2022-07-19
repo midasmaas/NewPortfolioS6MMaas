@@ -1,0 +1,20 @@
+.CVCrtIMG_container{
+    grid-column: 7/13;
+    position: relative;
+    align-self: flex-end;
+    justify-self: flex-end;
+    padding-top: 64px;
+}
+
+.CVCrtIMG_banner{
+    width: 100%;
+    height: auto;
+}
+
+.CVCrtIMG_menu_background{
+    position: absolute;
+    z-index: -5;
+    width: 82%;
+    top: 10%;
+    left: 9%;
+}
