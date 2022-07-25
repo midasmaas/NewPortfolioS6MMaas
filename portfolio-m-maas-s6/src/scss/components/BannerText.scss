@@ -10,12 +10,16 @@
   .Banner_container_background_shadow {
     position: absolute;
     z-index: -5;
-    background-image: url("assets/BGSchaduw.png");
-    object-fit: cover;
-    height: 95%;
-    width: 98%;
-    left: 0;
-    bottom: 0px;
+    background-color: white;
+    background-image: radial-gradient(black 30%, transparent 11%),
+        radial-gradient(black 30%, transparent 11%);
+    background-size: 10px 10px;
+    background-position: 0 0, 5px 5px;
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    top: 8px;
+    right: 5px;
 }
 
 .Banner_container_background_outline{

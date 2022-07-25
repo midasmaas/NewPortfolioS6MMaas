@@ -1,0 +1,43 @@
+.ProcesVisual_container{
+    grid-column: 1/13;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    justify-items: end;
+    display: grid;
+    grid-auto-columns: auto;
+    padding: 64px 0 64px 0 ;
+}
+
+.ProcesVisual_line{
+    background-image: url("assets/ProcesLine.png");
+    width: 100%;
+    //object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-evenly;
+    
+}
+
+.ProcesVisual_square{
+    background-image: url("assets/ProcesRectangle.png");
+    width: 225px;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    p{
+        color: white;
+        font-size: 40px;
+        margin: 16px;
+    }
+}
+
+.ProcesVisual_square_left{
+    transform: rotate(-5deg);
+}
+
+.ProcesVisual_square_right{
+    transform: rotate(5deg);
+}

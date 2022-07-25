@@ -6,6 +6,15 @@
     padding-top: 64px;
 }
 
+.CVCrtIMG_container_fullWidth{
+    grid-column: 2/12;
+    position: relative;
+    align-self: flex-end;
+    justify-self: flex-end;
+    padding-top: 64px;
+    padding-bottom: 128px;
+}
+
 .CVCrtIMG_banner{
     width: 100%;
     height: auto;
