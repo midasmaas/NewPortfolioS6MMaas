@@ -22,6 +22,18 @@
       grid-column-gap: 16px;
       padding-top: 167px;
     }
+
+    @include media-breakpoint-up(lg){
+      grid-template-columns: repeat(12, 62px);
+      grid-column-gap: 16px;
+      padding-top: 195px;
+    }
+
+    @include media-breakpoint-up(xl){
+      grid-template-columns: repeat(12, 62px);
+      grid-column-gap: 32px;
+      padding-top: 195px;
+    }
   
     @include media-breakpoint-up(xxl){
       grid-template-columns: repeat(12, 80px);

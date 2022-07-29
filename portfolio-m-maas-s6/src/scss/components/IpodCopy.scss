@@ -1,6 +1,13 @@
 .Ipod_container{
-    grid-column: 8/13;
     position: relative;
+    grid-column: 1/5;
+
+    @include media-breakpoint-up(sm){
+        grid-column: 1/9;
+    }
+    @include media-breakpoint-up(lg){
+        grid-column: 8/13;
+    }
 }
 
 .Ipod_banner{

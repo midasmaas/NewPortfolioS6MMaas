@@ -108,7 +108,18 @@
 }
 
 .CVInfo_banner {
-    grid-column: 2/7;
+    grid-column: 1/5;
+
+    @include media-breakpoint-up(sm){
+        grid-column: 1/9;
+    }
+    @include media-breakpoint-up(lg){
+        grid-column: 1/7;
+    }
+
+    @include media-breakpoint-up(xxl){
+        grid-column: 2/7;
+    }
 }
 
 .CVInfo_bottomBar_container {
