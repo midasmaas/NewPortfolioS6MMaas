@@ -1,28 +1,50 @@
 [
-    {
-        "productTitle": "Omroep Flevoland",
-        "productDescription": "Een nieuwe UX/UI voor het redactieportaal van Omroep Flevoland.",
-        "productSubTitle": "UI/UX, FIREBASE, VUE.JS",
-        "productThumbnail": "OmroepFlevoZW.png"
+  {
+    "productTitle": "Redactieportaal Omroep Flevoland",
+    "productDescription": "Een nieuwe UX/UI voor het redactieportaal van Omroep Flevoland.",
+    "productSubTitle": "UI/UX, FIREBASE, VUE.JS",
+    "productCRTIMG": "ProductIMGOmroepFlevo.png",
+    "productThumbnail": "OmroepFlevoZW.png",
+    "productClient": "Omroep Flevoland",
+    "productSkills": "UI/UX, research",
+    "productDoelstellingContext": {
+      "DoelstellingDescription": "Bedenk en ontwerp een nieuw redactieportaal, dat:",
+      "DoelstellingTasks": [
+        "Gebruiksvriendelijk is",
+        "Story based is",
+        "Het aantal handelingen beperkt",
+        "Niet te zwaar is voor de hardware"
+      ],
+      "ContextDescription" : "Omroep Flevoland heeft semester 6 van de FHICT de opdracht gegeven om een nieuw redactieportaal te ontwerpen. De journalisten gebruiken dit systeem om content te produceren, werkzaamheden te plannen, draaiboeken te maken en nog veel meer. Het oude systeem stamt uit 1995 en is enorm ongebruiksvriendelijk."
     },
-    {
-        "productTitle": "Deze website",
-        "productDescription": "Een ware 3.0-versie van mijn portfoliowebsite",
-        "productSubTitle": "UI/UX, VUE.JS, Brand-design",
-        "productThumbnail": "OmroepFlevoZW.png"
+    "procesTasks": [
+        "Expertinterviews",
+        "Userinterviews",
+        "Klikbaar design",
+        "Technische POC's"
+    ],
+    "productConclusie": {
+        "productConclusieDescription": "Uit als het onderzoek, trokken wij de volgende conclusie:",
+        "productConclusieSummary": "Story based werken zorgt voor dat journalisten minder handelingen hoeven verrichten. Echter mist het hierdoor flexibiliteit die de journalist wenst. Als er meerdere ingangen zijn binnen een workflow, ontstaat er een vlottere, gebruiksvriendelijkere flow."
     },
-    {
-        "productTitle": "BuBo",
-        "productDescription": "Een concept voor een start-up om voedselverspilling te verminderen",
-        "productSubTitle": "Concept design, visual design",
-        "productThumbnail": "OmroepFlevoZW.png"
-    },
-    {
-        "productTitle": "Onboardingwebsite Partout",
-        "productDescription": "Een onboardingwebsite voor internet agency Partout",
-        "productSubTitle": "UI/UX, VUE.JS, VueX",
-        "productThumbnail": "OmroepFlevoZW.png"
-    }
-
+    "productResultaat": "Een nieuwe UI/UX die volledig past bij de wensen van de redacteurs van Omroep Flevoland: een die past bij de journalisten."
+  },
+  {
+    "productTitle": "Deze website",
+    "productDescription": "Een ware 3.0-versie van mijn portfoliowebsite",
+    "productSubTitle": "UI/UX, VUE.JS, Brand-design",
+    "productThumbnail": "OmroepFlevoZW.png"
+  },
+  {
+    "productTitle": "BuBo",
+    "productDescription": "Een concept voor een start-up om voedselverspilling te verminderen",
+    "productSubTitle": "Concept design, visual design",
+    "productThumbnail": "OmroepFlevoZW.png"
+  },
+  {
+    "productTitle": "Onboardingwebsite Partout",
+    "productDescription": "Een onboardingwebsite voor internet agency Partout",
+    "productSubTitle": "UI/UX, VUE.JS, VueX",
+    "productThumbnail": "OmroepFlevoZW.png"
+  }
 ]
-
