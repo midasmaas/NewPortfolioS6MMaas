@@ -3,7 +3,7 @@
         <div class="CVInfo_container_background_shadow"></div>
 
         <div class="CVInfo_container_background_outline">
-          <div class="Banner__text">
+          <div class="CVInfo_Banner__text">
             <h2>{{dataForBanner.jobTitle}}</h2>
             <div class="_TagLine">
               <p class="_TagLine_Text"><span>{{dataForBanner.jobSubTitle}}</span></p>

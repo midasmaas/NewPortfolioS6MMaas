@@ -1,6 +1,7 @@
 <template>
   <div class="Ipod_container">
     <img class="Ipod_banner" src="../assets/IpodBanner.png" />
+    <img class="Ipod_banner_mobile" src="../assets/IpodBannerMobile.png" />
 
     <div class="Ipod_menu_background"></div>
     <div class="Ipod_menu">
