@@ -93,19 +93,28 @@
     padding: 32px;
 
     h2 {
-        font-size: 56px;
         color: $brand-color;
+        font-size: 32px;
+        @include media-breakpoint-up(sm){
+            font-size: 56px;
+        }
     }
 
     p {
-        font-size: 40px;
+        font-size: 24px;
+        @include media-breakpoint-up(sm){
+            font-size: 40px;
+        }
     }
 }
 
 
 
 .ContactBanner_banner {
+    grid-column: 2/5;
+    @include media-breakpoint-up(lg){
     grid-column: 2/7;
+    }
 }
 
 .ContactBanner_bottomBar_container {
@@ -128,10 +137,17 @@
     background: white;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    width: 68px;
+    height: 68px;
+    @include media-breakpoint-up(sm){
+        width: 100px;
+        height: 100px;
+    }
     ._icon{
-        width: 33px;
+        width: 24px;
+        @include media-breakpoint-up(sm){
+            width: 33px;
+        }
     }
     transition: all .15s linear .15s;
     &:hover {

@@ -12,10 +12,20 @@
     grid-template-columns: repeat(8, 62px);
     grid-column-gap: 8px;
   }
-  
+
   @include media-breakpoint-up(md){
     grid-template-columns: repeat(8, 62px);
     grid-column-gap: 16px;
+  }
+
+  @include media-breakpoint-up(lg){
+    grid-template-columns: repeat(12, 62px);
+    grid-column-gap: 16px;
+  }
+
+  @include media-breakpoint-up(xl){
+    grid-template-columns: repeat(12, 62px);
+    grid-column-gap: 32px;
   }
 
   @include media-breakpoint-up(xxl){
@@ -35,7 +45,7 @@
   width: 96vw;
   height: 15vh;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   z-index: 100;
   padding-top: 32px;
   @include media-breakpoint-up(lg){
@@ -52,79 +62,98 @@
 .hamburger_button__parent{
   position: relative;
   cursor: pointer;
-
+  padding-left: 16px;
 }
 
 .hamburger_button__parent_background{
   position: absolute;
-  background-image: url("assets/rectSVG.svg");
-  object-fit: cover;
-  height: 90px;
-  width: 90px;
   z-index: 3;
   bottom: 0;
   left: 0;
+  background-color: white;
+  background-image: radial-gradient(black 30%, transparent 11%),
+      radial-gradient(black 30%, transparent 11%);
+  background-size: 10px 10px;
+  background-position: 0 0, 5px 5px;
+  background-repeat: repeat;
   @include media-breakpoint-up(xs){
-    width: 58px;
-    height: 58px;
+    height: 55px;
+    width: 55px;
   }
 
   @include media-breakpoint-up(sm){
-    width: 52px;
-    height: 52px;
+    height: 50px;
+    width: 50px;
+  }
+
+  @include media-breakpoint-up(xl){
+    height: 50px;
+    width: 50px;
   }
 
   @include media-breakpoint-up(xxl){
-    width: 67px;
-    height: 67px;
+    height: 60px;
+    width: 60px;
   }
 
   @include media-breakpoint-up(xxxl){
-    width: 89px;
-    height: 89px;
+    height: 85px;
+    width: 85px;
   }
 }
 
 .hamburger_button__child{
   position: absolute;
   z-index: 5;
-  bottom: 8px;
-  left: 10px;
+  bottom: 6px;
+  left: 6px;
   background-color: white;
-  border: solid 8px black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   transition: all .15s linear .15s;
-  width: 95%;
+  border: solid 6px black;
   &:hover{
     bottom: 0;
     left: 0;
   }
 
   @include media-breakpoint-up(xs){
-    height: 67px;
+    height: 55px;
+    width: 55px;
   }
 
   @include media-breakpoint-up(sm){
-    height: 52px;
+    height: 50px;
+    width: 50px;
+  }
+
+  @include media-breakpoint-up(xl){
+    height: 50px;
+    width: 50px;
   }
 
   @include media-breakpoint-up(xxl){
-    height: 76px;
+    height: 60px;
+    width: 60px;
   }
 
   @include media-breakpoint-up(xxxl){
-    height: 89px;
+    height: 85px;
+    width: 85px;
+    border: solid 8px black;
   }
 
 
 // Streepjes in de button
   div{
     width: 80%;
-    height: 8px;
+    height: 6px;
     background-color: black;
+    @include media-breakpoint-up(xxxl){
+      height: 8px;
+    }
   }
 
   div.top {
@@ -142,13 +171,24 @@
   width: 99vw;
   height: 100vh;
   justify-content: center;
-  position: absolute;
-  z-index: 100;  
+  position: fixed;
+  z-index: 100;
+   
 }
 
 .hamburger_nav_container{
-  grid-column: 4/12;
   height: 100vh;
+  grid-column: 1/5;
+  @include media-breakpoint-up(sm){
+    grid-column: 3/9;
+  }
+
+  @include media-breakpoint-up(lg){
+    grid-column: 5/13;
+  }
+  @include media-breakpoint-up(xxxl){
+    grid-column: 4/13;
+  }
 }  
 
 .hamburger_nav_container__items{
@@ -161,9 +201,28 @@
 }  
 
  nav a{
-    font-size: 168px;
     font-weight: 400;
     text-decoration: none;
+    font-size: 104px;
+    @include media-breakpoint-up(sm){
+      font-size: 112px;
+    }
+    @include media-breakpoint-up(md){
+      font-size: 120px;
+    }
+    @include media-breakpoint-up(lg){
+      font-size: 128px;
+    }
+    @include media-breakpoint-up(xl){
+      font-size: 142px;
+    }
+  
+    @include media-breakpoint-up(xxl){
+      font-size: 168px;
+    }
+    @include media-breakpoint-up(xxxl){
+      font-size: 228px;
+    }
   }
   
   .router-link-exact-active {
@@ -172,12 +231,39 @@
 .hamburger_background_shadow{
   position: absolute;
   z-index: -5;
-  background-image: url("assets/BGSchaduw.png");
-  object-fit: cover;
-  height: 96vh;
-  width: 96vw;
-  left: 16px;
+  background-color: white;
+  background-image: radial-gradient(black 30%, transparent 11%),
+      radial-gradient(black 30%, transparent 11%);
+  background-size: 10px 10px;
+  background-position: 0 0, 5px 5px;
+  background-repeat: repeat;
+  height: 94vh;
+  left: 8px;
   bottom: 16px;
+  width: 92vw;
+  @include media-breakpoint-up(sm){
+    width: 94vw;
+  }
+  @include media-breakpoint-up(md){
+    width: 94vw;
+  }
+  @include media-breakpoint-up(lg){
+    width: 95vw;
+  }
+  @include media-breakpoint-up(xl){
+    width: 96vw;
+  }
+  @include media-breakpoint-up(xxxl){
+    width: 97vw;
+  }
+}
+
+.hamburger_background_background{
+  position: absolute;
+  z-index: -6;
+  background-color: $background-color;
+  width: 102%;
+  height: 100%;
 }
 .hamburger_background_container {
   position: absolute;
@@ -190,11 +276,35 @@
 
 .hamburger_background_outline{
   border: 8px solid;
-  height: 95vh;
-  width: 96vw;
   background-color: $background-color;
   align-self: center;
   display: grid;
+  height: 95vh;
+  width: 92vw;
+  @include media-breakpoint-up(sm){
+      font-size: 112px;
+      width: 94vw;
+    }
+    @include media-breakpoint-up(md){
+      font-size: 120px;
+      width: 95vw;
+    }
+    @include media-breakpoint-up(lg){
+      font-size: 128px;
+      width: 96vw;
+    }
+    @include media-breakpoint-up(xl){
+      font-size: 142px;
+      width: 97vw;
+    }
+  
+    @include media-breakpoint-up(xxl){
+      font-size: 168px;
+    }
+    @include media-breakpoint-up(xxxl){
+      
+      font-size: 228px;
+    }
 }
 
 .hamburger_background_bar{

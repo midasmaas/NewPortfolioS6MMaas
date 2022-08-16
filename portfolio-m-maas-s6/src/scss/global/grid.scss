@@ -1,3 +1,36 @@
+.padding_top_divider{
+  grid-column: 1/5;
+  @include media-breakpoint-up(xs){
+    grid-column: 1/5;
+    height: 64px;
+  }
+  @include media-breakpoint-up(sm){
+    grid-column: 1/9;
+  }
+
+  @include media-breakpoint-up(md){
+    height: 96px;
+    grid-column: 1/9;
+  }
+  @include media-breakpoint-up(lg){
+    height: 96px;
+    grid-column: 1/13;
+  }
+  @include media-breakpoint-up(xl){
+    height: 32px;
+    grid-column: 1/13;
+  }
+
+  @include media-breakpoint-up(xxl){
+    height: 64px;
+    grid-column: 1/13;
+  }
+
+  @include media-breakpoint-up(xxxl){
+    height: 104px;
+    grid-column: 1/13;
+  }
+}
 .container{
   display: grid;
   justify-content: center;
@@ -46,10 +79,16 @@
       grid-column-gap: 32px;
       padding-top: 240px;
     }
+    
+  }
+  .height_full{
+    height: 100vh;
   }
 
   .container_grid_footer {
     display: grid;
+    grid-template-rows: auto;
+    //align-items: end;
     
     @include media-breakpoint-up(xs){
       grid-template-columns: repeat(4, 70px);
@@ -59,17 +98,27 @@
       grid-template-columns: repeat(8, 62px);
       grid-column-gap: 8px;
     }
-  
+
     @include media-breakpoint-up(md){
       grid-template-columns: repeat(8, 62px);
       grid-column-gap: 16px;
     }
-  
+
+    @include media-breakpoint-up(lg){
+      grid-template-columns: repeat(12, 62px);
+      grid-column-gap: 16px;
+    }
+
+    @include media-breakpoint-up(xl){
+      grid-template-columns: repeat(12, 62px);
+      grid-column-gap: 32px;
+    }
+
     @include media-breakpoint-up(xxl){
       grid-template-columns: repeat(12, 80px);
       grid-column-gap: 32px;
     }
-  
+
     @include media-breakpoint-up(xxxl){
       grid-template-columns: repeat(12, 107px);
       grid-column-gap: 32px;

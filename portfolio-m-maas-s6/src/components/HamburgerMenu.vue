@@ -21,6 +21,7 @@
 
     <!--Hamburgermenu open BEGIN-->
     <div v-if="hamburgerOpen" class="hamburger_container_OPEN">
+      <div class="hamburger_background_background"></div>
       <div class="hamburger_background_shadow"></div>
       <div class="hamburger_background_container">
         <div class="hamburger_background_outline">

@@ -3,10 +3,11 @@
     grid-column: 1/5;
     display: grid;
     align-self: flex-end;
-    padding-top: 64px;
+    padding-top: 24px;
 
     @include media-breakpoint-up(sm){
         grid-column: 1/9;
+        padding-top: 64px;
     }
     @include media-breakpoint-up(lg){
         grid-column: 8/13;
@@ -41,7 +42,7 @@
     z-index: 1;
     width: 67%;
     height: 59%;
-    top: 30%;
+    top: 19%;
     @include media-breakpoint-up(sm){
         top: 21%; 
     }

@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="container_grid">
+      <div class="padding_top_divider"></div>
       <footer-bottom-copy :dataForBanner="cvData"></footer-bottom-copy>
       <ipod-copy :dataForIpod="ipodData"></ipod-copy>
     </div>
