@@ -36,27 +36,27 @@
 .ContactBanner_container_outerTriangle {
     content: '';
     position: absolute;
-    left: -67px;
-    top: 70%;
+    left: -55px;
+    top: 60px;
     width: 0;
     height: 0;
-    border: 80px solid transparent;
+    border: 55px solid transparent;
     border-right-color: black;
     //background-color: white;
     border-left: 0;
     border-top: 0;
-    margin-top: -10px;
-    margin-left: -20px;
+    //margin-top: -10px;
+    //margin-left: -20px;
 }
 
 .ContactBanner_container_innerTriangle {
     content: '';
     position: absolute;
-    left: 37px;
+    left: 38px;
     top: 17px;
     width: 0;
     height: 0;
-    border: 70px solid transparent;
+    border: 40px solid transparent;
     border-right-color: white;
     //background-color: white;
     border-left: 0;
@@ -73,8 +73,8 @@
     background-size: 10px 10px;
     background-position: 0 0, 5px 5px;
     background-repeat: repeat;
-    height: 80px;
-    width: 70px;
+    height: 70px;
+    width: 60px;
     top: 8px;
     left: 0px;
     clip-path: polygon(0 0, 100% 100%, 0 100%);
@@ -90,19 +90,22 @@
 .ContactBanner__text {
     display: flex;
     flex-direction: column;
-    padding: 32px;
+    padding: 16px;
+    @include media-breakpoint-up(sm){
+        padding: 32px;
+    }
 
     h2 {
         color: $brand-color;
         font-size: 32px;
-        @include media-breakpoint-up(sm){
+        @include media-breakpoint-up(lg){
             font-size: 56px;
         }
     }
 
     p {
         font-size: 24px;
-        @include media-breakpoint-up(sm){
+        @include media-breakpoint-up(lg){
             font-size: 40px;
         }
     }
@@ -111,7 +114,12 @@
 
 
 .ContactBanner_banner {
+    @include media-breakpoint-up(xs){
     grid-column: 2/5;
+    }
+    @include media-breakpoint-up(sm){
+        grid-column: 2/6;
+    }
     @include media-breakpoint-up(lg){
     grid-column: 2/7;
     }
@@ -137,9 +145,19 @@
     background: white;
     align-items: center;
     justify-content: center;
-    width: 68px;
-    height: 68px;
+    @include media-breakpoint-up(xs){
+    width: 56px;
+    height: 56px;
+    }
     @include media-breakpoint-up(sm){
+        width: 70px;
+        height: 70px;
+    }
+    @include media-breakpoint-up(md){
+        width: 74px;
+        height: 74px;
+    }
+    @include media-breakpoint-up(lg){
         width: 100px;
         height: 100px;
     }
