@@ -5,22 +5,31 @@
   width: 268px;
   left: -64px;
   @include media-breakpoint-up(sm){
-    left: -96px;
+    left: -90px;
+  }
+  @include media-breakpoint-up(md){
+    left: -30px;
+  }
+  @include media-breakpoint-up(lg){
+    left: -80px;
+  }
+  @include media-breakpoint-up(lg){
+    left: -60px;
+    width: 290px;
+  }
+  @include media-breakpoint-up(xxl){
+    left: -40px;
   }
   
 }
 
-.Contact_phone_IMG_container{
-    grid-column: 8/13;
-    position: relative;
-    height: fit-content;
-}
-
 .Contact_phone_IMG{
+  
 	  position: relative;
     display: flex;
     flex-direction: row;
     align-self: flex-end;
+    justify-self: end;
     left: 0;
     visibility: hidden;
     display: none;
@@ -29,15 +38,21 @@
     @include media-breakpoint-up(sm){
         display: block;
         visibility: visible;
-        left: 6%;
+        right: 0;
     }
     @include media-breakpoint-up(md){
-      left: 5%;
+      left: 32%;
       width: 135%;
     }
     @include media-breakpoint-up(lg){
-      left: 12%;
+      left: 6%;
       width: 100%;
+    }
+    @include media-breakpoint-up(xl){
+      left: 10%;
+    }
+    @include media-breakpoint-up(xxl){
+      left: 10%;
     }
     @include media-breakpoint-up(xs){
     grid-column: 5/9;
@@ -48,5 +63,7 @@
     @include media-breakpoint-up(lg){
       grid-column: 8/13;
     }
+    
+    
 
   }

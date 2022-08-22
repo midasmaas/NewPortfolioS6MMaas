@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="container_grid">
+    <div class="container_grid margin_top about__background">
       <!--banner BEGIN-->
       <div class="Banner_container headline_banner">
         <div class="Banner_container_background_shadow"></div>
@@ -11,7 +11,7 @@
             <div class="Banner_container_background_bar_dot"></div>
             <div class="Banner_container_background_bar_dot"></div>
           </div>
-          <div class="Banner__text">
+          <div class="Banner__texts">
             <h2 class="accent">Aangenaam, ik ben Midas</h2>
             <h1>Een webkoning onderweg naar</h1>
             <h2>
@@ -40,8 +40,8 @@
       <!--banner EINDE-->
 
       <!--Avatar BEGIN-->
-      <div class="avatar_container">
-        <img class="avatar_IMG" src="../assets/avatar.png" />
+      <div class="abs-position">
+        <img class="abs-content" src="../assets/avatar.png" />
       </div>
       <!--Avatar EINDE-->
 
