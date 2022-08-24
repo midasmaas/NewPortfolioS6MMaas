@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 import AboutView from '../views/AboutView.vue'
 import CVView from '../views/CVView.vue'
 import ContactView from '../views/ContactView.vue'
+import testView from '../views/testView'
 
 // portfolio views
 import PortfolioView from '../views/PortfolioView.vue'
@@ -37,6 +38,11 @@ const routes = [
     path: '/portfolio/product/:productid',
     name: 'PortfolioProductView',
     component: PortfolioProductView
+  },
+  {
+    path: '/test',
+    name: 'testView',
+    component: testView,
   }
 ]
 

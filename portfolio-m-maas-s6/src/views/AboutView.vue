@@ -1,11 +1,16 @@
 <template>
   <div class="container">
-    <div class="container_grid margin_top about__background">
+
+    
+    <div class="container_grid margin_top about__background ">
+      <a href="#">ZICHTBAAR
+
+</a>
       <!--banner BEGIN-->
       <div class="Banner_container headline_banner">
-        <div class="Banner_container_background_shadow"></div>
 
         <div class="Banner_container_background_outline">
+          <div class="Banner_container_background_shadow"></div>
           <div class="Banner_container_background_bar">
             <div class="Banner_container_background_bar_dot"></div>
             <div class="Banner_container_background_bar_dot"></div>
@@ -25,8 +30,7 @@
           </div>
         </div>
 
-        <a class="scrollVerder_button__parent">
-          <div class="scrollVerder_button__parent_background"></div>
+        <a href="http://www.google.com/" class="scrollVerder_button__parent">
           <div class="scrollVerder_button__child">
             <div class="scrollVerder_button__child_left">
               <p>Scroll verder</p>
@@ -36,12 +40,14 @@
             </div>
           </div>
         </a>
+      
+
       </div>
       <!--banner EINDE-->
 
       <!--Avatar BEGIN-->
-      <div class="abs-position">
-        <img class="abs-content" src="../assets/avatar.png" />
+      <div class="avatar_container">
+        <img class="avatar_IMG" src="../assets/avatar.png" />
       </div>
       <!--Avatar EINDE-->
 
@@ -150,10 +156,12 @@ export default {
       ICTText:
         "<h2>Het <span>goud</span> blonk echter niet zoals ik had gehoopt. Om ervoor te zorgen dat ik ooit een beetje als een vorst kan leven, ging ik andere paden verkennen. Dit verleide mij om ICT & Media Design te gaan studeren aan de Fontys in Tilburg, vanwege de interessante combinatie tussen techniek en creativiteit. Design tot leven brengen met code, is waar het bij mij van gaat kriebelen.</h2>",
       StageText:
-        "<h2>Waar ik dan stiekem wel met tevredenheid op terugkijk, is mijn tijd als stagiair bij Partout Digital Agency. Hier had ik mijn bureau tussen de design- en developmentafdelingen in, waar ik mijn eigen projecten had, waarvan ik het meest trots ben op <span>deze</span> onboardingwebsite, die ik zelf ontwierp en vervolgens heb gerealiseerd in Vue.js.</h2>",
+        "<h2>Waar ik dan stiekem wel met tevredenheid op terugkijk, is mijn tijd als stagiair bij Partout Digital Agency</a>. Hier had ik mijn bureau tussen de design- en developmentafdelingen in, waar ik mijn eigen projecten had, waarvan ik het meest trots ben op <span>deze</span> onboardingwebsite, die ik zelf ontwierp en vervolgens heb gerealiseerd in Vue.js.</h2>",
       SlotText:
         "<h3>Mijn streven is om mijn studie af te ronden met een griffel en daarom zoek ik de afstudeerstage waar gouden kennis te halen valt.</h3>",
     };
+  },
+  methods:{
   },
   components: {
     BannerText,

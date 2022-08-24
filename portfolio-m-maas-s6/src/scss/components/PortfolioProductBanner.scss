@@ -206,7 +206,7 @@
     background-repeat: no-repeat;
     background-size: 5% auto;
     background-position: center 200px;
-    z-index: -99;
+    z-index: 99;
     background-image: url("assets/PortfolioLijnMobile.svg");
     @include media-breakpoint-up(md){
         background-size: 90% auto;
