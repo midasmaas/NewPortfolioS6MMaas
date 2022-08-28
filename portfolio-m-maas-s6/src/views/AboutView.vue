@@ -1,11 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container overflowHidden">
 
     
-    <div class="container_grid margin_top about__background ">
-      <a href="#">ZICHTBAAR
-
-</a>
+    <div class="container_grid margin_top about__background">
       <!--banner BEGIN-->
       <div class="Banner_container headline_banner">
 
@@ -21,7 +18,7 @@
             <h1>Een webkoning onderweg naar</h1>
             <h2>
               Tijdens de reis heb ik veel gedaan om te raken waar ik nu ben. Ik
-              vertel je graag hoe ik daar gekomen ben.
+              vertel je graacdg hoe ik daar gekomen ben.
             </h2>
           </div>
           <div class="headline_IMG">
@@ -31,6 +28,7 @@
         </div>
 
         <a href="http://www.google.com/" class="scrollVerder_button__parent">
+        <div class="scrollVerder_button__parent_background"></div>
           <div class="scrollVerder_button__child">
             <div class="scrollVerder_button__child_left">
               <p>Scroll verder</p>
@@ -51,18 +49,20 @@
       </div>
       <!--Avatar EINDE-->
 
-      <!--Journalistiek IMG BEGIN-->
-      <div class="journalistiek_IMG_container">
-        <img src="../assets/journalistiekObject.png" />
-      </div>
-      <!--Journalistiek IMG EINDE-->
-
       <!--Journalistiek BANNER BEGIN-->
       <banner-text
         class="journalistiek_banner"
         :textForBanner="journalstiekText"
       ></banner-text>
       <!--Journalistiek BANNER EINDE-->
+
+      <!--Journalistiek IMG BEGIN-->
+      <div class="journalistiek_IMG_container">
+        <img src="../assets/journalistiekObject.png" />
+      </div>
+      <!--Journalistiek IMG EINDE-->
+
+      
 
       <!--ICT BANNER BEGIN-->
       <banner-text class="ICT_banner" :textForBanner="ICTText"></banner-text>
@@ -152,13 +152,13 @@ export default {
   data() {
     return {
       journalstiekText:
-        "<h2>Voor ik mij bezighield met het web, had ik de ambitie om journalist te worden. Een diploma heb ik daar niet aan overgehouden, maar wel <span>gouden</span> ervaringen in de muziekjournalistiek, bij media als The Daily Indie en Aardschok. Hier leerde ik mijn ijver en brede interesse te smeden. Ik nam <span>schrijfvaardigheid</span> en <span>communicatieve vaardigheden</span> mee.</h2>",
+        "<p>Voor ik mij bezighield met het web, had ik de ambitie om journalist te worden. Een diploma heb ik daar niet aan overgehouden, maar wel <span>gouden</span> ervaringen in de muziekjournalistiek, bij media als The Daily Indie en Aardschok. Hier leerde ik mijn ijver en brede interesse te smeden. Ik nam <span>schrijfvaardigheid</span> en <span>communicatieve vaardigheden</span> mee.</p>",
       ICTText:
-        "<h2>Het <span>goud</span> blonk echter niet zoals ik had gehoopt. Om ervoor te zorgen dat ik ooit een beetje als een vorst kan leven, ging ik andere paden verkennen. Dit verleide mij om ICT & Media Design te gaan studeren aan de Fontys in Tilburg, vanwege de interessante combinatie tussen techniek en creativiteit. Design tot leven brengen met code, is waar het bij mij van gaat kriebelen.</h2>",
+        "<p>Het <span>goud</span> blonk echter niet zoals ik had gehoopt. Om ervoor te zorgen dat ik ooit een beetje als een vorst kan leven, ging ik andere paden verkennen. Dit verleide mij om ICT & Media Design te gaan studeren aan de Fontys in Tilburg, vanwege de interessante combinatie tussen techniek en creativiteit. Design tot leven brengen met code, is waar het bij mij van gaat kriebelen.</p>",
       StageText:
-        "<h2>Waar ik dan stiekem wel met tevredenheid op terugkijk, is mijn tijd als stagiair bij Partout Digital Agency</a>. Hier had ik mijn bureau tussen de design- en developmentafdelingen in, waar ik mijn eigen projecten had, waarvan ik het meest trots ben op <span>deze</span> onboardingwebsite, die ik zelf ontwierp en vervolgens heb gerealiseerd in Vue.js.</h2>",
+        "<h2>Waar ik dan stiekem wel met tevredenheid op terugkijk, is mijn tijd als stagiair bij Partout Digital Agency</a>. Hier had ik mijn bureau tussen de design- en developmentafdelingen in, waar ik mijn eigen projecten had, waarvan ik het meest trots ben op <span>deze</span> onboardingwebsite, die ik zelf ontwierp en vervolgens heb gerealiseerd in Vue.js.</p>",
       SlotText:
-        "<h3>Mijn streven is om mijn studie af te ronden met een griffel en daarom zoek ik de afstudeerstage waar gouden kennis te halen valt.</h3>",
+        "<p>Mijn streven is om mijn studie af te ronden met een griffel en daarom zoek ik de afstudeerstage waar gouden kennis te halen valt.</h3>",
     };
   },
   methods:{

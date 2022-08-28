@@ -6,6 +6,7 @@
     justify-items: end;
     display: grid;
     grid-auto-columns: auto;
+    padding-bottom: 64px;
 }
 
 .ContactBanner_container_background_shadow {
@@ -17,10 +18,10 @@
     background-size: 10px 10px;
     background-position: 0 0, 5px 5px;
     background-repeat: repeat;
-    height: 100%;
-    width: 102%;
+    height: 78px;
+    width: 192px;
     top: 8px;
-    right: 5px;
+    left: -1px;
 }
 
 .ContactBanner_container_background_outline {

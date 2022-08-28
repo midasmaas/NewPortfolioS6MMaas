@@ -8,8 +8,8 @@
             <div class="Banner_container_background_bar_dot"></div>
             <div class="Banner_container_background_bar_dot"></div>
           </div>
-          <div v-html="textForBanner" class="Banner__text">
-          </div>
+          <p v-html="textForBanner" class="Banner__texts">
+          </p>
         </div>
       </div>
 </template>
