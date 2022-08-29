@@ -214,17 +214,40 @@
 }
 
 .journalistiek_IMG_container{
+  margin: 32px 0 32px 0;
+  display: flex;
   grid-column: 1/5;
-
+  @include media-breakpoint-up(xs){
+  grid-row: 3;
+  }
+  @include media-breakpoint-up(sm){
+    grid-row: 2;
+  }
+  @include media-breakpoint-up(lg){
+    grid-column: 1/6;
+    //margin: 0;
+  }
   img{
+    height: max-content;
+    justify-self: center;
+    align-self: center;
     width: 100%;
-    height: auto;
-    margin-top: 128px;
+    @include media-breakpoint-up(lg){
+      width: 90%;
+    }
+    @include media-breakpoint-up(xl){
+      width: 100%;
+    }
+    @include media-breakpoint-up(xxxl){
+      width: 100%;
+    }
+
   }
 }
 
 
 .ICT_IMG_container{
+  display: flex;
   grid-column: 1/5;
   @include media-breakpoint-up(sm){
   grid-column: 5/9;
@@ -234,16 +257,25 @@
   }
   img{
     width: 100%;
-    height: auto;
+    //height: auto;
+    height: max-content;
+    justify-self: center;
+    align-self: center;
   }
 }
 
 .Stage_IMG_container{
+  display: flex;
   grid-column: 1/5;
+  @include media-breakpoint-up(lg){
+    grid-column: 1/6;
+  }
 
   img{
     width: 100%;
-    height: auto;
+    height: max-content;
+    justify-self: center;
+    align-self: center;
   }
 }
 
@@ -262,16 +294,26 @@
   height: fit-content;
   text-align: start;
   display: flex;
+  flex-direction: column;
+  @include media-breakpoint-up(sm){
   flex-direction: row;
+  }
 }
 
 .Specs_banner_columns_collumn{
-  width: 50%;
+  width: 100%;
   height: fit-content;
+  @include media-breakpoint-up(sm){
+    width: 50%;
+  }
 }
 
 ._left{
+  border-bottom: solid black 8px;
+  @include media-breakpoint-up(sm){
   border-right: solid black 8px;
+  border-bottom: none;
+  }
 }
 
 .Specs_banner_columns_collumn_text{
@@ -279,7 +321,23 @@
   display: flex;
   flex-direction: column;
   h1{
-    font-size: 64px;
+    font-size: 40px;
+
+        @include media-breakpoint-up(sm) {
+            font-size: 44px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            font-size: 64px;
+        }
+
+        @include media-breakpoint-up(xxl) {
+            font-size: 80px;
+        }
+
+        @include media-breakpoint-up(xxxl) {
+            font-size: 96px;
+        }
   }
 
   span{
@@ -287,12 +345,34 @@
   }
 
   h2{
-    font-size: 56px;
     color: $brand-color;
+    font-size: 32px;
+
+        @include media-breakpoint-up(sm) {
+            font-size: 32px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            font-size: 40px;
+        }
+        
+        @include media-breakpoint-up(xxl) {
+          font-size: 48px;
+        }
+
+        @include media-breakpoint-up(xxxl) {
+            font-size: 56px;
+        }
   }
   li{
-    font-size: 32px;
     list-style: none;
+    font-size: 24px;
+        @include media-breakpoint-up(xl) {
+            font-size: 32px;
+        }
+        @include media-breakpoint-up(xxl) {
+            font-size: 40px;
+        }
   }
   ul{
     line-height: 250%;
@@ -312,9 +392,9 @@
   
 }
 .Goudpot_IMG_container{
-  grid-column: 1/5;
-  @include media-breakpoint-up(lg){
-    grid-column: 2/8;
+  grid-column: 2/4;
+  @include media-breakpoint-up(sm){
+    grid-column: 3/7;
   }
   @include media-breakpoint-up(lg){
   grid-column: 5/9;
@@ -328,7 +408,7 @@
 // Banners
 .Slot_banner {
   grid-column: 1/5;
-  @include media-breakpoint-up(md){
+  @include media-breakpoint-up(sm){
   grid-column: 1/9;
   }
   @include media-breakpoint-up(lg){
@@ -337,9 +417,10 @@
 }
 
 .journalistiek_banner {
+  margin: 0;
   grid-column: 1/5;
-  @include media-breakpoint-up(md){
-  grid-column: 5/8;
+  @include media-breakpoint-up(sm){
+  grid-column: 5/9;
   }
   @include media-breakpoint-up(lg){
     grid-column: 7/13;
@@ -358,7 +439,7 @@
 
 .Stage_banner {
   grid-column: 1/5;
-  @include media-breakpoint-up(md){
+  @include media-breakpoint-up(sm){
   grid-column: 5/9;
   }
   @include media-breakpoint-up(lg){

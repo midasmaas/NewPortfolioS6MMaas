@@ -48,6 +48,11 @@
         <img class="avatar_IMG" src="../assets/avatar.png" />
       </div>
       <!--Avatar EINDE-->
+       <!--Journalistiek IMG BEGIN-->
+      <div class="journalistiek_IMG_container">
+        <img src="../assets/journalistiekObject.png" />
+      </div>
+      <!--Journalistiek IMG EINDE-->
 
       <!--Journalistiek BANNER BEGIN-->
       <banner-text
@@ -55,12 +60,6 @@
         :textForBanner="journalstiekText"
       ></banner-text>
       <!--Journalistiek BANNER EINDE-->
-
-      <!--Journalistiek IMG BEGIN-->
-      <div class="journalistiek_IMG_container">
-        <img src="../assets/journalistiekObject.png" />
-      </div>
-      <!--Journalistiek IMG EINDE-->
 
       
 
@@ -156,7 +155,7 @@ export default {
       ICTText:
         "<p>Het <span>goud</span> blonk echter niet zoals ik had gehoopt. Om ervoor te zorgen dat ik ooit een beetje als een vorst kan leven, ging ik andere paden verkennen. Dit verleide mij om ICT & Media Design te gaan studeren aan de Fontys in Tilburg, vanwege de interessante combinatie tussen techniek en creativiteit. Design tot leven brengen met code, is waar het bij mij van gaat kriebelen.</p>",
       StageText:
-        "<h2>Waar ik dan stiekem wel met tevredenheid op terugkijk, is mijn tijd als stagiair bij Partout Digital Agency</a>. Hier had ik mijn bureau tussen de design- en developmentafdelingen in, waar ik mijn eigen projecten had, waarvan ik het meest trots ben op <span>deze</span> onboardingwebsite, die ik zelf ontwierp en vervolgens heb gerealiseerd in Vue.js.</p>",
+        "<p>Waar ik dan stiekem wel met tevredenheid op terugkijk, is mijn tijd als stagiair bij Partout Digital Agency</a>. Hier had ik mijn bureau tussen de design- en developmentafdelingen in, waar ik mijn eigen projecten had, waarvan ik het meest trots ben op <span>deze</span> onboardingwebsite, die ik zelf ontwierp en vervolgens heb gerealiseerd in Vue.js.</p>",
       SlotText:
         "<p>Mijn streven is om mijn studie af te ronden met een griffel en daarom zoek ik de afstudeerstage waar gouden kennis te halen valt.</h3>",
     };

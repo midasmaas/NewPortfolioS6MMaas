@@ -6,6 +6,7 @@
     display: grid;
     grid-auto-columns: auto;
     //z-index: 99;
+    margin: 32px 0 32px 0;
 }
 
 .Banner_container_background_shadow {
@@ -89,6 +90,12 @@
 
     p {
         font-size: 24px;
+        @include media-breakpoint-up(xl) {
+            font-size: 32px;
+        }
+        @include media-breakpoint-up(xl) {
+            font-size: 40px;
+        }
     }
 
     span {
