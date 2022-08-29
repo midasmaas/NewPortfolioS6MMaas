@@ -11,6 +11,7 @@
           <p v-html="textForBanner" class="Banner__texts">
           </p>
         </div>
+        
       </div>
 </template>
 

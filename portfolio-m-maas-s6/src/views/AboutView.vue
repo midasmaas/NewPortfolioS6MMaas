@@ -25,6 +25,10 @@
             <img src="../assets/goudKlompje.png" />
             <p>GOUD</p>
           </div>
+
+          <div class="about__line_headline">
+            <img src="../assets/PortfolioLijnAbout.svg" />
+          </div>
         </div>
 
         <a href="http://www.google.com/" class="scrollVerder_button__parent">
@@ -59,12 +63,20 @@
         class="journalistiek_banner"
         :textForBanner="journalstiekText"
       ></banner-text>
+      <div class="about__line_journalistiek">
+            <img src="../assets/PortfolioLijnAbout.svg" />
+      </div>
+      
       <!--Journalistiek BANNER EINDE-->
 
       
 
       <!--ICT BANNER BEGIN-->
       <banner-text class="ICT_banner" :textForBanner="ICTText"></banner-text>
+
+      <div class="about__line_ICT">
+            <img src="../assets/PortfolioLijnAbout.svg" />
+      </div>
       <!--ICT BANNER EINDE-->
 
       <!--ICT IMG BEGIN-->
