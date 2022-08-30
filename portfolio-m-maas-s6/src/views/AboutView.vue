@@ -56,6 +56,10 @@
       <div class="journalistiek_IMG_container">
         <img src="../assets/journalistiekObject.png" />
       </div>
+
+      <div class="about__line_horizontal_Journalstiek">
+            <img src="../assets/PortfolioLijnAboutShort.png" />
+      </div>
       <!--Journalistiek IMG EINDE-->
 
       <!--Journalistiek BANNER BEGIN-->
@@ -64,7 +68,7 @@
         :textForBanner="journalstiekText"
       ></banner-text>
       <div class="about__line_journalistiek">
-            <img src="../assets/PortfolioLijnAbout.svg" />
+            <img src="../assets/PortfolioLijnAboutShort.png" />
       </div>
       
       <!--Journalistiek BANNER EINDE-->
@@ -75,7 +79,7 @@
       <banner-text class="ICT_banner" :textForBanner="ICTText"></banner-text>
 
       <div class="about__line_ICT">
-            <img src="../assets/PortfolioLijnAbout.svg" />
+            <img src="../assets/PortfolioLijnAboutShort.png" />
       </div>
       <!--ICT BANNER EINDE-->
 
@@ -83,11 +87,19 @@
       <div class="ICT_IMG_container">
         <img src="../assets/ICTIMG.png" />
       </div>
+
+      <div class="about__line_horizontal_ICT">
+            <img src="../assets/PortfolioLijnAboutShort.png" />
+      </div>
       <!--ICT IMG EINDE-->
 
       <!--Stage IMG BEGIN-->
       <div class="Stage_IMG_container">
         <img src="../assets/win98.png" />
+      </div>
+
+      <div class="about__line_horizontal_stage">
+            <img src="../assets/PortfolioLijnAboutShort.png" />
       </div>
       <!--Stage IMG EINDE-->
 
@@ -96,6 +108,10 @@
         class="Stage_banner"
         :textForBanner="StageText"
       ></banner-text>
+
+      <div class="about__line_Stage">
+            <img src="../assets/PortfolioLijnAboutShort.png" />
+      </div>
       <!--Stage BANNER EINDE-->
 
       <!--Specs BANNER BEGIN-->
@@ -145,6 +161,9 @@
 
       <!--Slot BANNER BEGIN-->
       <banner-text class="Slot_banner" :textForBanner="SlotText"></banner-text>
+      <div class="about__line_Specs">
+            <img src="../assets/PortfolioLijnAbout.svg" />
+      </div>
       <!--Slot BANNER EINDE-->
 
       <!--Goudpot IMG BEGIN-->
