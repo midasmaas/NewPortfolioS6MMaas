@@ -1,5 +1,4 @@
 .ProcesVisual_container{
-    grid-column: 1/13;
     width: 100%;
     height: fit-content;
     position: relative;
@@ -7,6 +6,14 @@
     display: grid;
     grid-auto-columns: auto;
     padding: 64px 0 64px 0 ;
+    grid-column: 1/5;
+    @include media-breakpoint-up(sm) {
+        grid-column: 1/9;
+    }
+
+    @include media-breakpoint-up(lg) {
+        grid-column: 1/13;
+    }
 }
 
 .ProcesVisual_line{

@@ -1,6 +1,6 @@
 <template>
   <div class="AlignBanner_div">
-      <div class="product_banner_container product_banner_banner">
+      <div class="product_banner_container">
         <div class="product_banner_container_background_shadow"></div>
 
         <div class="product_banner_container_background_outline">

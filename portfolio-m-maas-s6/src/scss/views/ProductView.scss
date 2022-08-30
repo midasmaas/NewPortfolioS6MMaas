@@ -1,6 +1,12 @@
 .ProductView_number{
-    grid-column: 1/13;
     font-size: 56px;
     padding-top: 64px;
     padding-bottom: 64px;
+    grid-column: 1/5;
+    @include media-breakpoint-up(sm){
+        grid-column: 1/9;
+      }
+      @include media-breakpoint-up(lg){
+        grid-column: 1/13;
+      }
 }

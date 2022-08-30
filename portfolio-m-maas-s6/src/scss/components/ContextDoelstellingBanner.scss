@@ -5,7 +5,27 @@
     justify-items: end;
     display: grid;
     grid-auto-columns: auto;
-    grid-column: 3/11;
+    grid-column: 1/5;
+    @include media-breakpoint-up(sm) {
+        grid-column: 5/9;
+    }
+
+    @include media-breakpoint-up(md) {
+        
+    }
+
+    @include media-breakpoint-up(lg) {
+        grid-column: 3/13;
+    }
+
+    @include media-breakpoint-up(xl) {
+        grid-column: 3/11;
+        
+    }
+
+    @include media-breakpoint-up(xxl) {}
+
+    @include media-breakpoint-up(xxxl) {}
   }
 
   .DoelstellingContext_container_background_shadow {

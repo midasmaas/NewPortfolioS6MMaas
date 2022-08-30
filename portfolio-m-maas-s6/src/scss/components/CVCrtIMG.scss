@@ -1,9 +1,29 @@
 .CVCrtIMG_container{
-    grid-column: 7/13;
     position: relative;
     align-self: flex-end;
     justify-self: flex-end;
     padding-top: 64px;
+    grid-column: 1/5;
+    @include media-breakpoint-up(sm) {
+        grid-column: 2/8;
+    }
+
+    @include media-breakpoint-up(md) {
+        grid-column: 1/9;
+    }
+
+    @include media-breakpoint-up(lg) {
+        
+    }
+
+    @include media-breakpoint-up(xl) {
+        grid-column: 7/13;
+        
+    }
+
+    @include media-breakpoint-up(xxl) {}
+
+    @include media-breakpoint-up(xxxl) {}
 }
 
 .CVCrtIMG_container_fullWidth{
@@ -13,6 +33,14 @@
     justify-self: flex-end;
     padding-top: 64px;
     padding-bottom: 128px;
+    grid-column: 1/5;
+    @include media-breakpoint-up(sm) {
+        grid-column: 1/9;
+    }
+
+    @include media-breakpoint-up(lg) {
+        grid-column: 1/13;
+    }
 }
 
 .CVCrtIMG_banner{
