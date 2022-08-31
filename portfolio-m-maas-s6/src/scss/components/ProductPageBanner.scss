@@ -112,16 +112,16 @@
     }
 
     @include media-breakpoint-up(lg) {
-        
+        grid-column: 1/6;
     }
 
     @include media-breakpoint-up(xl) {
         grid-column: 1/6;
     }
 
-    @include media-breakpoint-up(xxl) {}
-
-    @include media-breakpoint-up(xxxl) {}
+    @include media-breakpoint-up(xxxl) {
+        grid-column: 1/5;
+    }
 }
 
 .product_banner_bottomBar_container {

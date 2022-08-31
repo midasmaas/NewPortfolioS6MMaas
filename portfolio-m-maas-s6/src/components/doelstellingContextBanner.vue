@@ -13,7 +13,7 @@
 
           <div class="DoelstellingContext_text_container">
             <div class="DoelstellingContext_rightLeft_div">
-              <div class="DoelstellingContext_text">
+              <div class="DoelstellingContext_text borderTop_none">
                 <h1>De</h1>
                 <h1>Doelstelling</h1>
 

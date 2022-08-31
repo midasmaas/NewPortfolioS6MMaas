@@ -30,7 +30,7 @@
             <div class="Banner_container_background_bar_dot"></div>
             <div class="Banner_container_background_bar_dot"></div>
           </div>
-          <div class="DoelstellingContext_text">
+          <div class="DoelstellingContext_text borderTop_none">
             <h1>Het</h1>
             <h1>Proces</h1>
 

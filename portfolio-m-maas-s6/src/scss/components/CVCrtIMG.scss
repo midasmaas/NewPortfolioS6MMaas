@@ -13,7 +13,7 @@
     }
 
     @include media-breakpoint-up(lg) {
-        
+        grid-column: 7/13;
     }
 
     @include media-breakpoint-up(xl) {
@@ -27,7 +27,7 @@
 }
 
 .CVCrtIMG_container_fullWidth{
-    grid-column: 2/12;
+    //grid-column: 2/12;
     position: relative;
     align-self: flex-end;
     justify-self: flex-end;
@@ -39,7 +39,7 @@
     }
 
     @include media-breakpoint-up(lg) {
-        grid-column: 1/13;
+        grid-column: 2/12;
     }
 }
 

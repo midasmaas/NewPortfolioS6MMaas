@@ -1,7 +1,7 @@
 .ProcesBannerContainer{
     grid-column: 1/5;
     @include media-breakpoint-up(sm){
-        grid-column: 1/5;
+        grid-column: 1/6;
       }
       @include media-breakpoint-up(lg){
         grid-column: 1/7;
