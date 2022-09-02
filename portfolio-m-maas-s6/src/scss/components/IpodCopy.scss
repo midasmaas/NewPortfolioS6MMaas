@@ -103,7 +103,17 @@
 .active-ipod{
     color: white;
     background-color: black;
+    animation:  iPodAnim 200ms ease-in-out forwards;
 }
+
+@keyframes iPodAnim {
+    from {
+     opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
 .Ipod_menu_status_bar{
     align-self: start;

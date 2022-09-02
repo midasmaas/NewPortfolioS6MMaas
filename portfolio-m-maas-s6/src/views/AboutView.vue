@@ -21,7 +21,7 @@
               vertel je graacdg hoe ik daar gekomen ben.
             </h2>
           </div>
-          <div class="headline_IMG">
+          <div id="square" @click="startSpin" class="headline_IMG">
             <img src="../assets/goudKlompje.png" />
             <p>GOUD</p>
           </div>
@@ -177,6 +177,7 @@
 
 <script>
 import BannerText from "../components/Banner.vue";
+import gsap from 'gsap'
 export default {
   name: "AboutView",
   data() {
@@ -197,9 +198,22 @@ export default {
   behavior: 'smooth'
 })
     },
+    startSpin(){
+    var square = document.getElementById('square')
+
+    gsap.from(square, 3, {rotation:"20", repeat:-1, yoyo: true});
+    //gsap.toFrom(square, 3, {rotation:"20", repeat:-1, yoyo: true});
+
+    
   },
+  },
+  
   components: {
     BannerText,
   },
+  mounted(){
+    this.startSpin()
+  }
+  
 };
 </script>
