@@ -202,7 +202,6 @@ export default {
     var square = document.getElementById('square')
 
     gsap.from(square, 3, {rotation:"20", repeat:-1, yoyo: true});
-    //gsap.toFrom(square, 3, {rotation:"20", repeat:-1, yoyo: true});
 
     
   },
