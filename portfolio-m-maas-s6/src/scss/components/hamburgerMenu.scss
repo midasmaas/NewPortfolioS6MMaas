@@ -173,7 +173,66 @@
   justify-content: center;
   position: fixed;
   z-index: 100;
-   
+}
+
+.hamburgerUp{
+  animation: growUp 300ms ease-in forwards;
+}
+
+.hamburgerDown{
+  animation: growDown 300ms ease-in forwards;
+}
+
+.hamburgerUpOpacity{
+  animation: opacityUp 600ms ease-in forwards;
+}
+
+.hamburgerDownOpacity{
+  animation: opacityDown 600ms ease-in forwards;
+}
+
+@keyframes growDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes growUp {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+}
+
+@keyframes opacityUp {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes opacityDown {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.item_move{
+  transition: all 0.3s ease;
 }
 
 .hamburger_nav_container{

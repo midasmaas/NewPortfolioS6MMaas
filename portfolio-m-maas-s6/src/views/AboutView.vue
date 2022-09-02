@@ -31,7 +31,7 @@
           </div>
         </div>
 
-        <a href="http://www.google.com/" class="scrollVerder_button__parent">
+        <a @click="scrollTo" class="scrollVerder_button__parent">
         <div class="scrollVerder_button__parent_background"></div>
           <div class="scrollVerder_button__child">
             <div class="scrollVerder_button__child_left">
@@ -63,7 +63,7 @@
       <!--Journalistiek IMG EINDE-->
 
       <!--Journalistiek BANNER BEGIN-->
-      <banner-text
+      <banner-text id="journalistiek"
         class="journalistiek_banner"
         :textForBanner="journalstiekText"
       ></banner-text>
@@ -192,6 +192,11 @@ export default {
     };
   },
   methods:{
+    scrollTo(){
+  document.getElementById('journalistiek').scrollIntoView({
+  behavior: 'smooth'
+})
+    },
   },
   components: {
     BannerText,

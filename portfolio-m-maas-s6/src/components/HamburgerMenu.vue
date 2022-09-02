@@ -3,10 +3,12 @@
     <!--Hamburgermenu gesloten BEGIN-->
     <div class="hamburger_container_GESLOTEN">
       <div class="hamburger_container_grid">
+        <router-link to="/">
         <img
           class="hamburger_container_GESLOTEN__img"
           src="../assets/LogoHamburgerSVG.svg"
         />
+        </router-link>
         <a @click="hamburgerOpen = true" class="hamburger_button__parent">
           <div class="hamburger_button__parent_background"></div>
           <div class="hamburger_button__child">
@@ -20,8 +22,8 @@
     <!--Hamburgermenu gesloten EINDE-->
 
     <!--Hamburgermenu open BEGIN-->
-    <div v-if="hamburgerOpen" class="hamburger_container_OPEN">
-      <div class="hamburger_background_background"></div>
+    <div :class="hamburgerAnim" class="hamburger_container_OPEN">
+      <div :class="hamburgerAnimOpacity" class="hamburger_background_background"></div>
       <div class="hamburger_background_shadow"></div>
       <div class="hamburger_background_container">
         <div class="hamburger_background_outline">
@@ -42,8 +44,8 @@
         <div class="hamburger_nav_container">
           <div class="hamburger_nav_container__items">
             <router-link to="/">OVER</router-link>
-            <router-link to="/portfolio">PORTFOLIO</router-link>
-            <router-link to="/cv/0">CV</router-link>
+            <router-link :class="routePortfolioActive" to="/portfolio">PORTFOLIO</router-link>
+            <router-link :class="routeCVActive" to="/cv/0">CV</router-link>
             <router-link to="/contact">CONTACT</router-link>
           </div>
         </div>
@@ -66,6 +68,28 @@ export default {
       if (to !== from) {
         this.hamburgerOpen = false;
       }
+    },
+  },
+  computed: {
+    routeCVActive(){
+    if (this.$route.params.jobid >= 0){
+      return 'router-link-exact-active'
+    } return ''
+    },
+    routePortfolioActive(){
+    if (this.$route.params.productid >= 0){
+      return 'router-link-exact-active'
+    } return ''
+    },
+    hamburgerAnim(){
+      if(this.hamburgerOpen == true){
+        return 'hamburgerDown'
+      } else return 'hamburgerUp'
+    },
+    hamburgerAnimOpacity(){
+      if(this.hamburgerOpen == true){
+        return 'hamburgerDownOpacity'
+      } else return 'hamburgerUpOpacity'
     },
   },
 };
