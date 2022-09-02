@@ -5,13 +5,14 @@
     justify-items: end;
     display: grid;
     grid-auto-columns: auto;
-    padding: 64px 0 64px 0 ;
+    padding: 32px 0 32px 0 ;
     grid-column: 1/5;
     @include media-breakpoint-up(sm) {
         grid-column: 1/9;
     }
 
     @include media-breakpoint-up(lg) {
+        padding: 64px 0 64px 0 ;
         grid-column: 1/13;
     }
 }
@@ -44,7 +45,19 @@
     height: 225px;
     margin-top: 64px;
     @include media-breakpoint-up(sm) {
-        
+        width: 115px;
+        height: 115px;
+    }
+
+    @include media-breakpoint-up(md) {
+        margin-top: 0;
+        width: 125px;
+        height: 125px;
+    }
+    @include media-breakpoint-up(lg) {
+        margin-top: 0;
+        width: 170px;
+        height: 170px;
     }
 
     @include media-breakpoint-up(xl) {
@@ -53,7 +66,8 @@
     }
 
     @include media-breakpoint-up(xxxl) {
-        
+        width: 270px;
+        height: 270px;
     }
     p{
         color: white;
@@ -62,15 +76,23 @@
         //font-size: 32px;
 
         @include media-breakpoint-up(sm) {
-            font-size: 40px;
+            font-size: 20px;
         }
 
+        @include media-breakpoint-up(md) {
+            font-size: 24px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            font-size: 32px;
+        }
         @include media-breakpoint-up(xl) {
             font-size: 40px;
         }
 
+
         @include media-breakpoint-up(xxxl) {
-            font-size: 56px;
+            font-size: 48px;
         }
     }
 }
