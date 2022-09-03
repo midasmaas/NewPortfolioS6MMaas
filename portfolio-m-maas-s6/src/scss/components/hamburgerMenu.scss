@@ -263,6 +263,8 @@
     font-weight: 400;
     text-decoration: none;
     font-size: 104px;
+    position: relative;
+    transition: 0.5s;
     @include media-breakpoint-up(sm){
       font-size: 112px;
     }
@@ -281,6 +283,34 @@
     }
     @include media-breakpoint-up(xxxl){
       font-size: 184px;
+    }
+  }
+
+  nav a::before{
+    content: ">";
+    color: $brand-color;
+    position: absolute;
+    //opacity: 0;
+    visibility: hidden;  
+    top: 14px;
+    left: -150px;
+    transition: 0.2s;
+  }
+
+  nav a:hover::before{
+    visibility: visible;
+    //opacity: 1;
+    left: -100px;
+  }
+  
+  @keyframes arrow {
+    from {
+      transform: translateX(-100px);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
     }
   }
   
