@@ -1,3 +1,15 @@
+.parralex_IMG_container{
+width: 100%;
+height: 100%;
+position: absolute;
+z-index: -5;
+overflow: hidden;
+}
+.parralex_IMG{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
 .headline_IMG{
   position: absolute;
   display: flex;
@@ -212,6 +224,7 @@
   @include media-breakpoint-up(lg){
     overflow: visible;
   }
+  scroll-behavior: smooth;
 }
 
 .journalistiek_IMG_container{

@@ -1,8 +1,16 @@
 <template>
-  <div class="container overflowHidden">
 
+  <div class="container overflowHidden">
+    <!--Parralex IMG BEGIN-->
+    <div class="parralex_IMG_container">
+      <img id="parralex" class="parralex_IMG" src="../assets/parralexBG.png" />
+    </div>
+      <!--Parralex IMG EINDE-->
     
     <div class="container_grid margin_top about__background">
+
+      
+
       <!--banner BEGIN-->
       <div class="Banner_container headline_banner">
 
@@ -202,9 +210,13 @@ export default {
     var square = document.getElementById('square')
 
     gsap.from(square, 3, {rotation:"5", repeat:-1, yoyo: true});
-
-    
   },
+
+  parralex(){
+    let background = document.getElementById('parralex')
+    let value = window.scrollY;
+    background.style.top = value * 0.25 + 'px'
+  }
   },
   
   components: {
@@ -212,6 +224,12 @@ export default {
   },
   mounted(){
     this.startSpin()
+  },
+  created(){
+    window.addEventListener('scroll', this.parralex)
+  },
+  destroyed(){
+    window.removeEventListener('scroll', this.parralex)
   }
   
 };
