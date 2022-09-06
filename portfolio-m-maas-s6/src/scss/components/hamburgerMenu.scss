@@ -286,6 +286,7 @@
     }
   }
 
+
   nav a::before{
     content: ">";
     color: $brand-color;
@@ -313,6 +314,45 @@
       opacity: 1;
     }
   }
+
+  .hamburger_stagger {
+    .dropdown_item-1 {
+      transform-origin: top center;
+      animation: translateX 500ms 0ms ease-in-out forwards;
+    }
+    .dropdown_item-2 {
+      transform-origin: top center;
+      animation: translateX 800ms ease-in-out forwards;
+
+    }
+    .dropdown_item-3 {
+      transform-origin: top center;
+      animation: translateX 1100ms 0ms ease-in-out forwards;
+    }
+    .dropdown_item-4 {
+      transform-origin: top center;
+      animation: translateX 1400ms 0ms ease-in-out forwards;
+    }
+    .dropdown_item-5 {
+      transform-origin: top center;
+      animation: translateX 1700ms 0ms ease-in-out forwards;
+    }
+  }
+
+  @keyframes translateX {
+    0% {
+      transform: translateX(600px);
+    }
+    
+    80% {
+      transform: translateX(-50px);
+    }
+  
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
   
   .router-link-exact-active {
     color: $brand-color;

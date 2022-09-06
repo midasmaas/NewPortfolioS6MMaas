@@ -42,11 +42,11 @@
       </div>
       <nav class="hamburger_container_grid">
         <div class="hamburger_nav_container">
-          <div class="hamburger_nav_container__items">
-            <router-link to="/">OVER</router-link>
-            <router-link :class="routePortfolioActive" to="/portfolio">PORTFOLIO</router-link>
-            <router-link :class="routeCVActive" to="/cv/0">CV</router-link>
-            <router-link to="/contact">CONTACT</router-link>
+          <div :class="hamburgerStagger" class="hamburger_nav_container__items">
+            <router-link class="dropdown_item-1" to="/">OVER</router-link>
+            <router-link class="dropdown_item-2" :class="routePortfolioActive" to="/portfolio">PORTFOLIO</router-link>
+            <router-link class="dropdown_item-3" :class="routeCVActive" to="/cv/0">CV</router-link>
+            <router-link class="dropdown_item-4" to="/contact">CONTACT</router-link>
           </div>
         </div>
       </nav>
@@ -85,6 +85,11 @@ export default {
       if(this.hamburgerOpen == true){
         return 'hamburgerDown'
       } else return 'hamburgerUp'
+    },
+    hamburgerStagger(){
+      if(this.hamburgerOpen == true){
+        return 'hamburger_stagger'
+      } else return ''
     },
     hamburgerAnimOpacity(){
       if(this.hamburgerOpen == true){

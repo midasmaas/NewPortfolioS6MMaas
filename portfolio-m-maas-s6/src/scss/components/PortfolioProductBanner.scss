@@ -1,3 +1,21 @@
+.parralex_IMG_container_portfolio_product {
+    width: fit-content;
+    height: 2180px;
+    position: absolute;
+    z-index: -99;
+    overflow: hidden;
+    padding-top: 350px;
+    visibility: hidden;
+    @include media-breakpoint-up(md) {
+        visibility: visible;
+    }
+}
+.parralex_IMG_portfolio_product {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
 .portfolio_product_banner_container {
     width: 100%;
     height: fit-content;
@@ -5,51 +23,64 @@
     justify-items: end;
     display: grid;
     grid-auto-columns: auto;
-  }
+    
+}
 
-.portfolio_product_banner_left{
+.overflowY{
+    overflow-y: hidden;
+}
+
+.portfolio_product_banner_left {
     grid-column: 1/5;
     margin: 32px 0 32px 0;
-    @include media-breakpoint-up(sm){
+
+    @include media-breakpoint-up(sm) {
         grid-column: 2/8;
     }
-    @include media-breakpoint-up(md){
+
+    @include media-breakpoint-up(md) {
         grid-column: 1/5;
     }
-    @include media-breakpoint-up(lg){
-    grid-column: 1/6;
+
+    @include media-breakpoint-up(lg) {
+        grid-column: 1/6;
     }
 }
 
-.portfolio_product_banner_right{
+.portfolio_product_banner_right {
     grid-column: 1/5;
     margin: 32px 0 32px 0;
-    @include media-breakpoint-up(sm){
+
+    @include media-breakpoint-up(sm) {
         grid-column: 2/8;
     }
-    @include media-breakpoint-up(md){
-        margin-top: 248px; 
+
+    @include media-breakpoint-up(md) {
+        margin-top: 248px;
         grid-column: 5/9;
     }
-    @include media-breakpoint-up(lg){
-    margin-top: 335px;    
-    grid-column: 8/13;
+
+    @include media-breakpoint-up(lg) {
+        margin-top: 335px;
+        grid-column: 8/13;
     }
-    
+
 }
 
-.portfolio_product_banner_left_top{
+.portfolio_product_banner_left_top {
     margin-top: 0 !important;
     grid-column: 1/5;
-    
-    @include media-breakpoint-up(sm){
+
+    @include media-breakpoint-up(sm) {
         grid-column: 2/8;
     }
-    @include media-breakpoint-up(md){
+
+    @include media-breakpoint-up(md) {
         grid-column: 1/5;
     }
-    @include media-breakpoint-up(lg){
-    grid-column: 1/6;
+
+    @include media-breakpoint-up(lg) {
+        grid-column: 1/6;
     }
 }
 
@@ -68,7 +99,7 @@
     right: 5px;
 }
 
-.portfolio_product_banner_container_background_outline{
+.portfolio_product_banner_container_background_outline {
     border: 8px solid;
     border-bottom: none;
     height: 98%;
@@ -76,34 +107,40 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-} 
+}
 
 
-.portfolio_product_banner__text{
+.portfolio_product_banner__text {
     display: flex;
     flex-direction: column;
     padding: 16px;
-    @include media-breakpoint-up(lg){
-    padding: 32px;
-    }
-    h2{
-    font-size: 32px;    
-    @include media-breakpoint-up(lg){
-        font-size: 48px;
-    }
-    }
-    p{
-        font-size: 24px;
-    @include media-breakpoint-up(lg){
-        font-size: 32px;
-    }
+
+    @include media-breakpoint-up(lg) {
+        padding: 32px;
     }
 
-    .accent{
+    h2 {
+        font-size: 32px;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 48px;
+        }
+    }
+
+    p {
+        font-size: 24px;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 32px;
+        }
+    }
+
+    .accent {
         color: $brand-color;
     }
-    span{
-      color: $brand-color;
+
+    span {
+        color: $brand-color;
     }
 
     ._TagLine {
@@ -116,18 +153,23 @@
 
         .bar {
             width: 20%;
-    @include media-breakpoint-up(sm){
-            width: 40%;
-    }
-    @include media-breakpoint-up(md){
-        width: 15%;
-}
-@include media-breakpoint-up(xl){
-    width: 25%;
-}
-@include media-breakpoint-up(xxl){
-    width: 40%;
-}
+
+            @include media-breakpoint-up(sm) {
+                width: 40%;
+            }
+
+            @include media-breakpoint-up(md) {
+                width: 15%;
+            }
+
+            @include media-breakpoint-up(xl) {
+                width: 25%;
+            }
+
+            @include media-breakpoint-up(xxl) {
+                width: 40%;
+            }
+
             height: 55%;
             background: $brand-color;
             align-self: center;
@@ -135,15 +177,16 @@
     }
 }
 
-.portfolio_product_banner__content{
+.portfolio_product_banner__content {
     display: flex;
     flex-direction: column;
-    img{
+
+    img {
         width: 100%;
     }
 }
 
-.portfolio_product_banner_container_background_bar{
+.portfolio_product_banner_container_background_bar {
     align-self: start;
     width: 100%;
     height: 48px;
@@ -152,19 +195,19 @@
     flex-direction: row-reverse;
     align-items: center;
 }
-  
-  
-.portfolio_product_banner_container_background_bar_dot{
+
+
+.portfolio_product_banner_container_background_bar_dot {
     width: 16px;
     height: 16px;
     background: $brand-color;
     border-radius: 50%;
     margin: 0 4px
-  }
+}
 
 
-  //button
-  .portfolio_product_banner_bottomBar_container {
+//button
+.portfolio_product_banner_bottomBar_container {
     width: 99%;
     display: flex;
     flex-direction: row;
@@ -172,10 +215,10 @@
     justify-self: flex-start;
     margin-left: 5px;
     margin-top: -12px;
-    
+
 }
 
-  .portfolio_product_banner_button{
+.portfolio_product_banner_button {
     width: 100%;
     background: $brand-color;
     border: 8px solid;
@@ -183,24 +226,30 @@
     align-content: center;
     justify-content: center;
     text-decoration: none;
-    p{
-    font-size: 24px;    
-    @include media-breakpoint-up(md){
-        font-size: 34px;
-    }
-    @include media-breakpoint-up(lg){
-        font-size: 40px;
-    }
+
+    p {
+        font-size: 24px;
+
+        @include media-breakpoint-up(md) {
+            font-size: 34px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            font-size: 40px;
+        }
+
         padding: 24px;
         color: white;
     }
+
     transition: all .15s linear .15s;
+
     &:hover {
         transform: scale(1.1);
     }
-  }
+}
 
-  .portfolio_product_banner__background{
+.portfolio_product_banner__background {
     height: fit-content;
     width: 100%;
     background-repeat: no-repeat;
@@ -208,12 +257,14 @@
     background-position: center 200px;
     z-index: 99;
     background-image: url("assets/PortfolioLijnMobile.svg");
-    @include media-breakpoint-up(md){
-        background-size: 90% auto;
-        background-image: url("assets/kaartGrijs.png");
-    }
-  }
 
-  .margin_top{
+    @include media-breakpoint-up(md) {
+        //background-size: 90% auto;
+        //background-image: url("assets/kaartGrijs.png");
+        background-image: none;
+    }
+}
+
+.margin_top {
     margin-top: 64px;
 }

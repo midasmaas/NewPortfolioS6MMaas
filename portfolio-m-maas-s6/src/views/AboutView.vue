@@ -26,7 +26,7 @@
             <h1>Een webkoning onderweg naar</h1>
             <h2>
               Tijdens de reis heb ik veel gedaan om te raken waar ik nu ben. Ik
-              vertel je graacdg hoe ik daar gekomen ben.
+              vertel je graag hoe ik daar gekomen ben.
             </h2>
           </div>
           <div id="square" @click="startSpin" class="headline_IMG">
