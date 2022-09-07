@@ -176,7 +176,7 @@
 
       <!--Goudpot IMG BEGIN-->
       <div class="Goudpot_IMG_container">
-        <img src="../assets/PotGoud.png" />
+        <img src="../assets/GoudPotGIFResult.gif" />
       </div>
       <!--Goudpot IMG EINDE-->
     </div>
