@@ -26,6 +26,35 @@
     @include media-breakpoint-up(xxxl) {}
 }
 
+.Vueper_container{
+    //padding-top: 64px;
+    grid-column: 1/12;
+    width: 100%;
+    background-image: url('assets/CRTOutline.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    margin-top: 64px;
+}
+
+.Veuper_outline{
+    width: 100%;
+    //margin: 64px;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 64px;
+    padding: 65px 55px 75px 55px;
+}
+
+.vueper_absolute{
+    position: absolute;
+}
+
+.width_test{
+    height: 600px;
+}
+
 .CVCrtIMG_container_fullWidth{
     //grid-column: 2/12;
     position: relative;
@@ -44,8 +73,10 @@
 }
 
 .CVCrtIMG_banner{
-    width: 100%;
+    width: 80%;
     height: auto;
+    position: absolute;
+    
 }
 
 .CVCrtIMG_menu_background{

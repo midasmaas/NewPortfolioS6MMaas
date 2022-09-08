@@ -4,20 +4,34 @@
       <product-banner :dataForProductBanner="currentProduct"></product-banner>
 
       <!--CRT IMG-->
-      <banner-copy class="CVCrtIMG_container" :textForCRT="currentProduct"></banner-copy>
+      <banner-copy
+        class="CVCrtIMG_container"
+        :textForCRT="currentProduct"
+      ></banner-copy>
+
+      <div class="Vueper_container">
+        <!--<img class="CVCrtIMG_banner" src="../assets/CRTOutline.png" />-->
+        <div class="Veuper_outline">
+        <vueper-slides :slide-ratio="3 / 4">
+          <vueper-slide
+            style="heigth: 600px"
+            v-for="(slide, i) in slidesPush"
+            :key="i"
+            :image="slide.image"
+          />
+        </vueper-slides>
+        </div>
+      </div>
 
       <!-- Nummer -->
-      <h1 class="ProductView_number">
-        01.
-      </h1>
+      <h1 class="ProductView_number">01.</h1>
 
-      <doelstelling-context-banner :dataForDoelstellingContext="currentProduct"></doelstelling-context-banner>
-
+      <doelstelling-context-banner
+        :dataForDoelstellingContext="currentProduct"
+      ></doelstelling-context-banner>
 
       <!-- Nummer -->
-      <h1 class="ProductView_number">
-        02.
-      </h1>
+      <h1 class="ProductView_number">02.</h1>
 
       <!--Het Proces banner-->
 
@@ -41,48 +55,90 @@
         </div>
       </div>
 
-      <proces-visual :dataForProcesVisual="currentProduct.procesTasks"></proces-visual>
+      <proces-visual
+        :dataForProcesVisual="currentProduct.procesTasks"
+      ></proces-visual>
 
       <!-- Nummer -->
-      <h1 class="ProductView_number">
-        03.
-      </h1>
+      <h1 class="ProductView_number">03.</h1>
       <conclusie-banner :dataForConclusie="currentProduct"></conclusie-banner>
 
       <!-- Nummer -->
-      <h1 class="ProductView_number">
-        04.
-      </h1>
+      <h1 class="ProductView_number">04.</h1>
       <resultaat-banner :dataForResultaat="currentProduct"></resultaat-banner>
       <!--CRT IMG-->
-      <banner-copy class="CVCrtIMG_container_fullWidth" :textForCRT="currentProduct"></banner-copy>
+      <banner-copy
+        class="CVCrtIMG_container_fullWidth"
+        :textForCRT="currentProduct"
+      ></banner-copy>
     </div>
   </div>
 </template>
 
 <script>
-
 //Components
-import productBanner from '../components/productBanner.vue';
-import DoelstellingContextBanner from '../components/doelstellingContextBanner.vue';
-import ProcesVisual from '../components/procesVisual.vue';
-import ConclusieBanner from '../components/conclusieBanner.vue';
-import ResultaatBanner from '../components/resultaatBanner.vue';
-import BannerCopy from '../components/windowCRT.vue';
-
-
+import productBanner from "../components/productBanner.vue";
+import DoelstellingContextBanner from "../components/doelstellingContextBanner.vue";
+import ProcesVisual from "../components/procesVisual.vue";
+import ConclusieBanner from "../components/conclusieBanner.vue";
+import ResultaatBanner from "../components/resultaatBanner.vue";
+import BannerCopy from "../components/windowCRT.vue";
 
 //Data
-import productJson from '../json-data/producten.json'
+import productJson from "../json-data/producten.json";
 
+//Vueper
+import { VueperSlides, VueperSlide } from "vueperslides";
+import "vueperslides/dist/vueperslides.css";
 
 export default {
-  components: { productBanner, BannerCopy, DoelstellingContextBanner, ProcesVisual, ConclusieBanner, ResultaatBanner },
+  components: {
+    productBanner,
+    BannerCopy,
+    DoelstellingContextBanner,
+    ProcesVisual,
+    ConclusieBanner,
+    ResultaatBanner,
+    VueperSlides,
+    VueperSlide,
+  },
   name: "PortfolioProductView",
   computed: {
-    currentProduct () {
-      return productJson[this.$route.params.productid ?? 0]
+    currentProduct() {
+      return productJson[this.$route.params.productid ?? 0];
     },
-  }
+    /*
+    currentIMGSlider () {
+      return this.slidesPush.push(productJson[this.$route.params.productid ?? 0].IMGSlider)
+    },
+    */
+  },
+  data: () => ({
+    slides: [
+      {
+        image: require("../assets/ProductIMGOmroepFlevo.png"),
+      },
+      {
+        image: require("../assets/ProductIMGOmroepFlevo.png"),
+      },
+      {
+        image: require("../assets/ProductIMGOmroepFlevo.png"),
+      },
+    ],
+    slidesPush: [],
+  }),
+  methods: {
+    pusToArray() {
+      console.log(this.slidesPush);
+      let JSONData = productJson[this.$route.params.productid].IMGSlider;
+      JSONData.forEach((element) => {
+        element.image = require("../assets/" + element.image);
+      });
+      this.slidesPush.push(...JSONData);
+    },
+  },
+  created() {
+    this.pusToArray();
+  },
 };
 </script>

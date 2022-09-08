@@ -27,7 +27,18 @@
         "productConclusieDescription": "Uit als het onderzoek, trokken wij de volgende conclusie:",
         "productConclusieSummary": "Story based werken zorgt voor dat journalisten minder handelingen hoeven verrichten. Echter mist het hierdoor flexibiliteit die de journalist wenst. Als er meerdere ingangen zijn binnen een workflow, ontstaat er een vlottere, gebruiksvriendelijkere flow."
     },
-    "productResultaat": "Een nieuwe UI/UX die volledig past bij de wensen van de redacteurs van Omroep Flevoland: een die past bij de journalisten."
+    "productResultaat": "Een nieuwe UI/UX die volledig past bij de wensen van de redacteurs van Omroep Flevoland: een die past bij de journalisten.",
+    "IMGSlider": [
+      {
+        "image": "ProductIMGOmroepFlevo.png"
+      },
+      {
+        "image": "ProductIMGOmroepFlevo.png"
+      },
+      {
+        "image": "ProductIMGOmroepFlevo.png"
+      }
+    ]
   },
   {
     "productTitle": "Deze website",
