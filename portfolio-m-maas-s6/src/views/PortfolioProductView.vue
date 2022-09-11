@@ -9,19 +9,7 @@
         :textForCRT="currentProduct"
       ></banner-copy>
 
-      <div class="Vueper_container">
-        <!--<img class="CVCrtIMG_banner" src="../assets/CRTOutline.png" />-->
-        <div class="Veuper_outline">
-        <vueper-slides :slide-ratio="3 / 4">
-          <vueper-slide
-            style="heigth: 600px"
-            v-for="(slide, i) in slidesPush"
-            :key="i"
-            :image="slide.image"
-          />
-        </vueper-slides>
-        </div>
-      </div>
+      
 
       <!-- Nummer -->
       <h1 class="ProductView_number">01.</h1>
@@ -67,10 +55,19 @@
       <h1 class="ProductView_number">04.</h1>
       <resultaat-banner :dataForResultaat="currentProduct"></resultaat-banner>
       <!--CRT IMG-->
-      <banner-copy
-        class="CVCrtIMG_container_fullWidth"
-        :textForCRT="currentProduct"
-      ></banner-copy>
+      <div class="Vueper_container">
+        <!--<img class="CVCrtIMG_banner" src="../assets/CRTOutline.png" />-->
+        <div class="Veuper_outline">
+        <vueper-slides :slide-ratio="3 / 4">
+          <vueper-slide
+            style="heigth: 600px"
+            v-for="(slide, i) in slidesPush"
+            :key="i"
+            :image="slide.image"
+          />
+        </vueper-slides>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -126,19 +123,30 @@ export default {
       },
     ],
     slidesPush: [],
+    reloadOnce: false
   }),
   methods: {
     pusToArray() {
-      console.log(this.slidesPush);
+      //console.log(this.slidesPush);
       let JSONData = productJson[this.$route.params.productid].IMGSlider;
+      console.log(JSONData)
       JSONData.forEach((element) => {
-        element.image = require("../assets/" + element.image);
+        console.log(element.image + "BEFORE")
+        element.image = require("@/assets/" + element.imageBaseValue);
+        console.log(element.image)
       });
       this.slidesPush.push(...JSONData);
     },
+    reload(){
+      if(this.reloadOnce === false){
+      this.$router.go()
+      this.reloadOnce = true
+      }
+    }
   },
   created() {
     this.pusToArray();
+    //this.reload();
   },
 };
 </script>

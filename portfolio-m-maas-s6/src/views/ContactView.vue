@@ -6,7 +6,7 @@
         <img class="Contact_avatar_IMG" src="../assets/HoofdFoto.png" />
 
         
-        <img class="Contact_phone_IMG" src="../assets/ContactPhone.png" />
+        <img class="Contact_phone_IMG" src="../assets/tellieGif.gif" />
     
     </div>
   </div>

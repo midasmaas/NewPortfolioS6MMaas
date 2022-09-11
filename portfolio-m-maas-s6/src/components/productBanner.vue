@@ -15,7 +15,7 @@
             </p>
           </div>
 
-          <div class="product_banner_IMG">
+          <div id="square" class="product_banner_IMG">
             <img src="../assets/goudKlompje.png" />
           </div>
         </div>
@@ -41,10 +41,21 @@
 </template>
 
 <script>
+import gsap from 'gsap'
 export default {
   name: 'productBanner',
   props: {
     dataForProductBanner: Object
+  },
+  methods: {
+    startSpin(){
+    var square = document.getElementById('square')
+
+    gsap.from(square, 3, {rotation:"10", repeat:-1, yoyo: true});
+  },
+},
+mounted(){
+    this.startSpin()
   }
 }
 </script>

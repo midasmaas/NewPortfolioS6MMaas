@@ -209,7 +209,7 @@ export default {
     startSpin(){
     var square = document.getElementById('square')
 
-    gsap.from(square, 3, {rotation:"5", repeat:-1, yoyo: true});
+    gsap.from(square, 3, {rotation:"10", repeat:-1, yoyo: true});
   },
 
   parralex(){

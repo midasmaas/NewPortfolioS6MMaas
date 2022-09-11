@@ -14,8 +14,8 @@
           <div class="DoelstellingContext_text_container">
             <div class="Conclusie_div">
               <div class="DoelstellingContext_text">
-                <h1>De</h1>
-                <h1>Conclusie</h1>
+                <h1>DE</h1>
+                <h1>CONCLUSIE</h1>
 
                 <div class="Conclusie_bar"></div>
 

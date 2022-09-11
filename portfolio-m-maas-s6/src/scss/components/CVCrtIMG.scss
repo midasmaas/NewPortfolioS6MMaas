@@ -1,7 +1,5 @@
 .CVCrtIMG_container{
     position: relative;
-    align-self: flex-end;
-    justify-self: flex-end;
     padding-top: 64px;
     grid-column: 1/5;
     @include media-breakpoint-up(sm) {
@@ -28,7 +26,6 @@
 
 .Vueper_container{
     //padding-top: 64px;
-    grid-column: 1/12;
     width: 100%;
     background-image: url('assets/CRTOutline.png');
     background-size: 100% 100%;
@@ -36,6 +33,14 @@
     background-position: center;
     display: grid;
     margin-top: 64px;
+    grid-column: 1/5;
+    @include media-breakpoint-up(sm) {
+        grid-column: 1/9;
+    }
+
+    @include media-breakpoint-up(lg) {
+        grid-column: 2/12;
+    }
 }
 
 .Veuper_outline{
@@ -56,10 +61,7 @@
 }
 
 .CVCrtIMG_container_fullWidth{
-    //grid-column: 2/12;
     position: relative;
-    align-self: flex-end;
-    justify-self: flex-end;
     padding-top: 64px;
     padding-bottom: 128px;
     grid-column: 1/5;
