@@ -132,21 +132,14 @@ export default {
       console.log(JSONData)
       JSONData.forEach((element) => {
         console.log(element.image + "BEFORE")
-        element.image = require("@/assets/" + element.imageBaseValue);
+        element.image = require("@/assets/portfolioProducts/sliderImgs/" + element.imageBaseValue);
         console.log(element.image)
       });
       this.slidesPush.push(...JSONData);
     },
-    reload(){
-      if(this.reloadOnce === false){
-      this.$router.go()
-      this.reloadOnce = true
-      }
-    }
   },
   created() {
     this.pusToArray();
-    //this.reload();
   },
 };
 </script>

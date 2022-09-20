@@ -1,11 +1,11 @@
 <template>
 <div>
   <img class="CVCrtIMG_banner" src="../assets/CRTOutline.png" />
-
         <img
           class="CVCrtIMG_menu_background"
-          :src="require('../assets/' + textForCRT.productCRTIMG)"
+          :src="require('../assets/portfolioProducts/CRTImgs/' + textForCRT.productCRTIMG)"
         />
+
 </div>
 </template>
 

@@ -15,7 +15,7 @@
         "Het aantal handelingen beperkt",
         "Niet te zwaar is voor de hardware"
       ],
-      "ContextDescription" : "Omroep Flevoland heeft semester 6 van de FHICT de opdracht gegeven om een nieuw redactieportaal te ontwerpen. De journalisten gebruiken dit systeem om content te produceren, werkzaamheden te plannen, draaiboeken te maken en nog veel meer. Het oude systeem stamt uit 1995 en is enorm ongebruiksvriendelijk."
+      "ContextDescription" : "<p>Omroep Flevoland vroeg semester 6 van de FHICT een nieuwe redactieportaal te ontwerpen. De journalisten gebruiken dit systeem om content te produceren, werkzaamheden te plannen, draaiboeken te maken en nog veel meer. Het oude systeem stamt uit 1995 en is enorm ongebruiksvriendelijk. De grote uitdaging die ik hier ervoer, was het combineren van een grote reeks aan functies in een gebruiksvriendelijk geheel. De opdrachtgever wilde eveneens dat dit story based zou zijn: heel het proces van de journalist hangt vast aan een hoofdverhaal waaraan meerdere media-uitingen gekoppeld kunnen worden. Ik heb hier vooral veel geleerd betreffende UI/UX, maar ook de technische uitdaging van het maken van een Vue-POC, was zeer leerzaam.</p>"
     },
     "procesTasks": [
         "Expertinterviews",
@@ -25,141 +25,9 @@
     ],
     "productConclusie": {
         "productConclusieDescription": "Uit als het onderzoek, trokken wij de volgende conclusie:",
-        "productConclusieSummary": "Story based werken zorgt voor dat journalisten minder handelingen hoeven verrichten. Echter mist het hierdoor flexibiliteit die de journalist wenst. Als er meerdere ingangen zijn binnen een workflow, ontstaat er een vlottere, gebruiksvriendelijkere flow."
+        "productConclusieSummary": "<p>Story based werken zorgt voor dat journalisten minder handelingen hoeven verrichten. Echter mist het hierdoor flexibiliteit die de journalist wenst. Als er meerdere ingangen zijn binnen een workflow, ontstaat er een vlottere, gebruiksvriendelijkere flow.</p>"
     },
-    "productResultaat": "Een nieuwe UI/UX die volledig past bij de wensen van de redacteurs van Omroep Flevoland: een die past bij de journalisten.",
-    "IMGSlider": [
-      {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
-      },
-      {
-        "imageBaseValue": "ICTIMG.png"
-      },
-      {
-        "imageBaseValue": "PotGoud.png"
-      },
-      {
-        "imageBaseValue": "win98.png"
-      }
-    ]
-  },
-  {
-    "productTitle": "BuBo",
-    "productDescription": "Een nieuwe UX/UI voor het redactieportaal van Omroep Flevoland.",
-    "productSubTitle": "UI/UX, FIREBASE, VUE.JS",
-    "productCRTIMG": "ProductIMGOmroepFlevo.png",
-    "productThumbnail": "OmroepFlevoZW.png",
-    "productClient": "Omroep Flevoland",
-    "productSkills": "UI/UX, research",
-    "productDoelstellingContext": {
-      "DoelstellingDescription": "Bedenk en ontwerp een nieuw redactieportaal, dat:",
-      "DoelstellingTasks": [
-        "Gebruiksvriendelijk is",
-        "Story based is",
-        "Het aantal handelingen beperkt",
-        "Niet te zwaar is voor de hardware"
-      ],
-      "ContextDescription" : "Omroep Flevoland heeft semester 6 van de FHICT de opdracht gegeven om een nieuw redactieportaal te ontwerpen. De journalisten gebruiken dit systeem om content te produceren, werkzaamheden te plannen, draaiboeken te maken en nog veel meer. Het oude systeem stamt uit 1995 en is enorm ongebruiksvriendelijk."
-    },
-    "procesTasks": [
-        "Expertinterviews",
-        "Userinterviews",
-        "Klikbaar design",
-        "Technische POC's"
-    ],
-    "productConclusie": {
-        "productConclusieDescription": "Uit als het onderzoek, trokken wij de volgende conclusie:",
-        "productConclusieSummary": "Story based werken zorgt voor dat journalisten minder handelingen hoeven verrichten. Echter mist het hierdoor flexibiliteit die de journalist wenst. Als er meerdere ingangen zijn binnen een workflow, ontstaat er een vlottere, gebruiksvriendelijkere flow."
-    },
-    "productResultaat": "Een nieuwe UI/UX die volledig past bij de wensen van de redacteurs van Omroep Flevoland: een die past bij de journalisten.",
-    "IMGSlider": [
-      {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
-      },
-      {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
-      },
-      {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
-      },
-      {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
-      }
-    ]
-  },
-  {
-    "productTitle": "Onboardingswebsite",
-    "productDescription": "Een nieuwe UX/UI voor het redactieportaal van Omroep Flevoland.",
-    "productSubTitle": "UI/UX, FIREBASE, VUE.JS",
-    "productCRTIMG": "ProductIMGOmroepFlevo.png",
-    "productThumbnail": "OmroepFlevoZW.png",
-    "productClient": "Omroep Flevoland",
-    "productSkills": "UI/UX, research",
-    "productDoelstellingContext": {
-      "DoelstellingDescription": "Bedenk en ontwerp een nieuw redactieportaal, dat:",
-      "DoelstellingTasks": [
-        "Gebruiksvriendelijk is",
-        "Story based is",
-        "Het aantal handelingen beperkt",
-        "Niet te zwaar is voor de hardware"
-      ],
-      "ContextDescription" : "Omroep Flevoland heeft semester 6 van de FHICT de opdracht gegeven om een nieuw redactieportaal te ontwerpen. De journalisten gebruiken dit systeem om content te produceren, werkzaamheden te plannen, draaiboeken te maken en nog veel meer. Het oude systeem stamt uit 1995 en is enorm ongebruiksvriendelijk."
-    },
-    "procesTasks": [
-        "Expertinterviews",
-        "Userinterviews",
-        "Klikbaar design",
-        "Technische POC's"
-    ],
-    "productConclusie": {
-        "productConclusieDescription": "Uit als het onderzoek, trokken wij de volgende conclusie:",
-        "productConclusieSummary": "Story based werken zorgt voor dat journalisten minder handelingen hoeven verrichten. Echter mist het hierdoor flexibiliteit die de journalist wenst. Als er meerdere ingangen zijn binnen een workflow, ontstaat er een vlottere, gebruiksvriendelijkere flow."
-    },
-    "productResultaat": "Een nieuwe UI/UX die volledig past bij de wensen van de redacteurs van Omroep Flevoland: een die past bij de journalisten.",
-    "IMGSlider": [
-      {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
-      },
-      {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
-      },
-      {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
-      },
-      {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
-      }
-    ]
-  },
-  {
-    "productTitle": "Deze website",
-    "productDescription": "Een nieuwe UX/UI voor het redactieportaal van Omroep Flevoland.",
-    "productSubTitle": "UI/UX, FIREBASE, VUE.JS",
-    "productCRTIMG": "ProductIMGOmroepFlevo.png",
-    "productThumbnail": "OmroepFlevoZW.png",
-    "productClient": "Omroep Flevoland",
-    "productSkills": "UI/UX, research",
-    "productDoelstellingContext": {
-      "DoelstellingDescription": "Bedenk en ontwerp een nieuw redactieportaal, dat:",
-      "DoelstellingTasks": [
-        "Gebruiksvriendelijk is",
-        "Story based is",
-        "Het aantal handelingen beperkt",
-        "Niet te zwaar is voor de hardware"
-      ],
-      "ContextDescription" : "Omroep Flevoland heeft semester 6 van de FHICT de opdracht gegeven om een nieuw redactieportaal te ontwerpen. De journalisten gebruiken dit systeem om content te produceren, werkzaamheden te plannen, draaiboeken te maken en nog veel meer. Het oude systeem stamt uit 1995 en is enorm ongebruiksvriendelijk."
-    },
-    "procesTasks": [
-        "Expertinterviews",
-        "Userinterviews",
-        "Klikbaar design",
-        "Technische POC's"
-    ],
-    "productConclusie": {
-        "productConclusieDescription": "Uit als het onderzoek, trokken wij de volgende conclusie:",
-        "productConclusieSummary": "Story based werken zorgt voor dat journalisten minder handelingen hoeven verrichten. Echter mist het hierdoor flexibiliteit die de journalist wenst. Als er meerdere ingangen zijn binnen een workflow, ontstaat er een vlottere, gebruiksvriendelijkere flow."
-    },
-    "productResultaat": "Een nieuwe UI/UX die volledig past bij de wensen van de redacteurs van Omroep Flevoland: een die past bij de journalisten.",
+    "productResultaat": "<p>Het klikbare design tref je <a href='https://xd.adobe.com/view/e09e4fae-b55a-40e9-ad8e-29d5221cf6e5-b5cd/' target='_blank' rel='noopener noreferrer'>hier</a>.  Het technische POC tref je in deze <a href='https://github.com/midasmaas/OmroepFlevo' target='_blank' rel='noopener noreferrer'>GIT</a>. Ontwerpen zijn hieronder zichtbaar.</p>",
     "IMGSlider": [
       {
         "imageBaseValue": "ProductIMGOmroepFlevo.png"

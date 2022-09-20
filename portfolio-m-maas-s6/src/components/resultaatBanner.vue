@@ -19,9 +19,9 @@
 
                 <div class="Conclusie_bar"></div>
 
-                <p>
-                  {{dataForResultaat.productResultaat}}
-                </p>
+                <div v-html="dataForResultaat.productResultaat">
+
+                </div>
               </div>
             </div>
           </div>
@@ -34,6 +34,6 @@ export default {
   name: 'resultaatBanner',
   props: {
     dataForResultaat: Object
-  }
+  },
 }
 </script>

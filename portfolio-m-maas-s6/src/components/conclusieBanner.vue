@@ -22,10 +22,8 @@
                 <p>{{dataForConclusie.productConclusie.productConclusieDescription}}</p>
               </div>
 
-              <div class="DeDoelStelling_list">
-                <p>
-                  "{{dataForConclusie.productConclusie.productConclusieSummary}}"
-                </p>
+              <div class="DeDoelStelling_list" v-html="dataForConclusie.productConclusie.productConclusieSummary">
+                
               </div>
             </div>
           </div>

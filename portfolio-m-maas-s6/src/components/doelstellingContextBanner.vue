@@ -39,10 +39,8 @@
                 <div class="Doelstelling_bar"></div>
               </div>
 
-              <div class="DeDoelStelling_list">
-                <p>
-                  {{dataForDoelstellingContext.productDoelstellingContext.ContextDescription}}
-                </p>
+              <div class="DeDoelStelling_list" v-html="dataForDoelstellingContext.productDoelstellingContext.ContextDescription">
+              
               </div>
             </div>
           </div>
