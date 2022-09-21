@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="CVCrtIMG_container">
   <img class="CVCrtIMG_banner" src="../assets/CRTOutline.png" />
         <img
           class="CVCrtIMG_menu_background"

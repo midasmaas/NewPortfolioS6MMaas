@@ -5,7 +5,6 @@
 
       <!--CRT IMG-->
       <banner-copy
-        class="CVCrtIMG_container"
         :textForCRT="currentProduct"
       ></banner-copy>
 

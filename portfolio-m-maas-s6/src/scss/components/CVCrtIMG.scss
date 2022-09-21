@@ -1,6 +1,6 @@
 .CVCrtIMG_container{
     position: relative;
-    padding-top: 64px;
+    //padding-top: 64px;
     grid-column: 1/5;
     @include media-breakpoint-up(sm) {
         grid-column: 2/8;
@@ -22,6 +22,9 @@
     @include media-breakpoint-up(xxl) {}
 
     @include media-breakpoint-up(xxxl) {}
+    
+    height: fit-content;
+    flex-direction: row;
 }
 
 .Vueper_container{
@@ -76,14 +79,15 @@
 
 .CVCrtIMG_banner{
     width: 80%;
-    height: auto;
+    height: fit-content;
     position: absolute;
     
 }
 
 .CVCrtIMG_menu_background{
-    position: absolute;
+    position: relative;
     z-index: -5;
+    height: fit-content;
     width: 82%;
     top: 10%;
     left: 9%;
