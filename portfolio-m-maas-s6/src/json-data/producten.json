@@ -30,17 +30,274 @@
     "productResultaat": "<p>Het klikbare design tref je <a href='https://xd.adobe.com/view/e09e4fae-b55a-40e9-ad8e-29d5221cf6e5-b5cd/' target='_blank' rel='noopener noreferrer'>hier</a>.  Het technische POC tref je in deze <a href='https://github.com/midasmaas/OmroepFlevo' target='_blank' rel='noopener noreferrer'>GIT</a>. Ontwerpen zijn hieronder zichtbaar.</p>",
     "IMGSlider": [
       {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
+        "imageBaseValue": "OmroepFlevo1.jpg"
       },
       {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
+        "imageBaseValue": "OmroepFlevo2.jpg"
       },
       {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
+        "imageBaseValue": "OmroepFlevo3.jpg"
       },
       {
-        "imageBaseValue": "ProductIMGOmroepFlevo.png"
+        "imageBaseValue": "OmroepFlevo4.jpg"
+      },
+      {
+        "imageBaseValue": "OmroepFlevo5.jpg"
+      }
+    ]
+  },
+  {
+    "productTitle": "Portfoliowebsite 3.0",
+    "productDescription": "Een verbetering van mijn digitale visitekaartje om een waardige afstudeerstage te vinden.",
+    "productSubTitle": "WEBDESIGN, VUE.JS, BRANDING",
+    "productCRTIMG": "ProductIMGOmroepFlevo.png",
+    "productThumbnail": "OmroepFlevoZW.png",
+    "productClient": "Ik",
+    "productSkills": "UI/UX, research",
+    "productDoelstellingContext": {
+      "DoelstellingDescription": "Bedenk en ontwerp een nieuw redactieportaal, dat:",
+      "DoelstellingTasks": [
+        "Visuele samenhang",
+        "Het verhaal dat ik vertelde",
+        "Hoe weinig ik mijn werk laat zien",
+        "De UI/UX"
+
+      ],
+      "ContextDescription" : "<p>In de laatste vier weken van mijn derde jaar kreeg ik wederom de kans van mijn opleiding om een persoonlijk project te doen. Mijn portfoliowebsite leek mij een mooie om onder handen te nemen. Ik zag zoals ik in de doelstelling omschrijf veel verbeterpunten, nu ik anderhalf jaar verder was. Om die reden heb ik goed gekeken naar andere portfoliowebsites en hoe zij producten presenteren. Ik heb een nieuwe indeling gemaakt waarin ik mij baseer op designprincipes als grid en het 8pt-systeem. Ook keek ik naar een nieuw verhaal dat mij beter vertegenwoordigd. Als laatste wilde ik de website bouwen in Vue.JS om zo een betere ervaring te creëren voor gebruiker en mijzelf als onderhouder.</p>"
+    },
+    "procesTasks": [
+      "Expertinterviews",
+      "Designiteraties",
+      "Klikbaar design",
+      "Vue.js website"
+      
+    ],
+    "productConclusie": {
+        "productConclusieDescription": "Uit al de analyses en onderzoeken trok ik de volgende conclusie:",
+        "productConclusieSummary": "<p>Mijn lessen in design en code mij de mogelijkheid gaven een grote verbeterslag te kunnen maken. Door deze verbeterslagen kan ik mijzelf beter representeren en hopelijk in staat stellen de droomafstudeerstage te vinden.</p>"
+    },
+    "productResultaat": "<p>Je bevind je nu op de website in kwestie. Het ontwerp waarop deze gebaseerd is, zie je hieronder. Het klikbare design tref je <a href='https://xd.adobe.com/view/e65bf97b-fc9b-41ae-bbf6-161a498a9b6c-b308/' target='_blank' rel='noopener noreferrer'>hier</a>. De code tref je in deze <a href='https://github.com/midasmaas/NewPortfolioS6MMaas' target='_blank' rel='noopener noreferrer'>GIT</a>.</p>",
+    "IMGSlider": [
+      {
+        "imageBaseValue": "Portfolio3-1.jpg"
+      },
+      {
+        "imageBaseValue": "Portfolio3-2.jpg"
+      },
+      {
+        "imageBaseValue": "Portfolio3-3.jpg"
+      },
+      {
+        "imageBaseValue": "Portfolio3-4.jpg"
+      },
+      {
+        "imageBaseValue": "Portfolio3-5.jpg"
+      }
+    ]
+  },
+  {
+    "productTitle": "Onboardingwebsite Partout",
+    "productDescription": "Een website waar nieuwe Partout-medewerkers bekendraken met het bedrijf.",
+    "productSubTitle": "WEBDESIGN, VUE.JS",
+    "productCRTIMG": "ProductIMGOmroepFlevo.png",
+    "productThumbnail": "OmroepFlevoZW.png",
+    "productClient": "Partout",
+    "productSkills": "Webdesign, Vue.js",
+    "productDoelstellingContext": {
+      "DoelstellingDescription": "Partout wilde het onboardproces op een website hebben. Deze moest:",
+      "DoelstellingTasks": [
+        "Makkelijk onderhoudbaar zijn",
+        "Herkenbaar zijn als Partout-product",
+        "Voortgang van de medewerkers bijhouden"
+      ],
+      "ContextDescription" : "<p>Tijdens mijn stage bij Partout, kreeg ik de opdracht om een onboardingwebsite te maken. Voorheen gebeurde het doormiddel van checklists en moest het handmatig worden bijgehouden. Aan mij de taak een webdesign te maken en te realiseren in Vue.JS. De website moest onderhoudbaar zijn en werken op een breed scala aan apparaten. De website kan makkelijk bijgehouden worden door de wijze waarop het JSON omzet naar nieuwe modules en hoofdstukken. Zo kan vanuit een JSON een hele pagina indeling in voor opgemaakte blokken worden gevuld. Ik heb in mijn inspiratie goed gekeken naar webtools en hoe daar de UI/UX werkt en daar inspiratie uit gehaald.</p>"
+    },
+    "procesTasks": [
+      "User interviews",
+      "Designonderzoek",
+      "Wireframes",
+      "Klikbare prototypes",
+      "Vue-website"
+    ],
+    "productConclusie": {
+        "productConclusieDescription": "Uit het onderzoek, de ervaring van het maken en het proces:",
+        "productConclusieSummary": "<p>De conclusie van dit project was dat er een onboardingwebsite stond waar gebruiker en opdrachtgever tevreden over waren. Het was voor mij een opdracht waar ik wederom web-design en code heb mogen oefenen.</p>"
+    },
+    "productResultaat": "<p>De code tref je op deze <a href='https://github.com/midasmaas/Onboarding' target='_blank' rel='noopener noreferrer'>GIT</a> Een video van het werkende resultaat tref je <a href='https://youtu.be/zX5zqpNB7Wg' target='_blank' rel='noopener noreferrer'>hier</a>. De ontwerpen zie je in de galerij hieronder. </p>",
+    "IMGSlider": [
+      {
+        "imageBaseValue": "Onboarding1.jpg"
+      },
+      {
+        "imageBaseValue": "Onboarding2.jpg"
+      },
+      {
+        "imageBaseValue": "Onboarding3.jpg"
+      }
+    ]
+  },
+  {
+    "productTitle": "BuBo",
+    "productDescription": "Voedsel delen doormiddel van Buurt Boxen als concept.",
+    "productSubTitle": "CONCEPTING, BRANDING",
+    "productCRTIMG": "ProductIMGOmroepFlevo.png",
+    "productThumbnail": "OmroepFlevoZW.png",
+    "productClient": "Fontys",
+    "productSkills": "Concepting, Branding",
+    "productDoelstellingContext": {
+      "DoelstellingDescription": "Vanuit school kregen mijn groep en ik de opdracht om een start-up te bedenken, die voldoet aan de volgende eisen:",
+      "DoelstellingTasks": [
+        "Levensvatbaar zijn",
+        "Een oplossing bieden voor een probleem waar momenteel geen antwoord op bestaat",
+        "Door onderzoek onderbouwd zijn"
+      ],
+      "ContextDescription" : "<p>De context hier was dat deze er juist amper is: ieder probleem mocht worden onderzocht. Vanuit persoonlijke interesse kwamen we uit bij voedselverspilling. Een grote oorzaak van voedselverspilling is dat mensen teveel eten weggooien. Wij bedachten dat het via de Buurt Box (BuBo), mogelijk moet zijn voedsel te delen met mensen die het echt kunnen gebruiken. Dit moest volgens onze onderzoeksresultaten eenvoudig kunnen via een app, zodat de drempel zo laag mogelijk is. ‘De drempel verlagen’ is mogelijk wel de belangrijkste vereiste die wij zagen. Voor de mensen die het echt nodig hebben, is het maatschappelijke oordeel dat zij ervaren vaak nog te zwaar. BuBo moet het delen van voedsel zo normaal maken als je flessen inleveren bij de supermarkt: ga je ook nog even langs de BuBo?</p>"
+    },
+    "procesTasks": [
+      "Bibliotheekonderzoek",
+      "Usertests",
+      "Branding",
+      "App design"
+    ],
+    "productConclusie": {
+        "productConclusieDescription": "Uit het proces van idee naar concept en uitwerking, trokken we de volgende conclusie:",
+        "productConclusieSummary": "<p>Met zijn maatschappelijk idealen is BuBo als concept logisch als stichting, die niet alleen het delen met de medemens makkelijk moet, maken maar het ook moet normaliseren. Daarom is de uitwerking een klikbaar prototype en een campagne die insteekt op het normaliseren van het delen van voedsel.</p>"
+    },
+    "productResultaat": "<p>Een klikbare versie van de app tref je <a href='https://xd.adobe.com/view/364ff7ac-ee76-460a-9ee5-fc55cccbe09a-631c/ ' target='_blank' rel='noopener noreferrer'>hier</a>. In de galerij zie je enkel ontwerpen van de app, maar ook van de poster. </p>",
+    "IMGSlider": [
+      {
+        "imageBaseValue": "BuBo1.jpg"
+      },
+      {
+        "imageBaseValue": "BuBo2.jpg"
+      },
+      {
+        "imageBaseValue": "BuBo3.jpg"
+      },
+      {
+        "imageBaseValue": "BuBo4.jpg"
+      }
+    ]
+  },
+  {
+    "productTitle": "Portfoliowebsite 2.0",
+    "productDescription": "Mijn visitekaartje waarmee ik mijn tweedejaarsstage heb gevonden.",
+    "productSubTitle": "WEBDESIGN, JAVASCRIPT, BRANDING",
+    "productCRTIMG": "ProductIMGOmroepFlevo.png",
+    "productThumbnail": "OmroepFlevoZW.png",
+    "productClient": "Fontys",
+    "productSkills": "Webdesign, javascript, branding",
+    "productDoelstellingContext": {
+      "DoelstellingDescription": "Ik wilde voor mijzelf een digitaal visitekaartje creëren waarmee ik:",
+      "DoelstellingTasks": [
+        "Mij richtte op internet agencies",
+        "Mijn karakter visueel uitstraal",
+        "Een verhaal tekstueel en visueel vertel",
+        "Ik mijn vaardigheden in een product laat zien"
+
+      ],
+      "ContextDescription" : "<p>In jaar twee van mijn studie mocht ik een project doen waarin ik mijn passie voor mijn vak toon. Die verwoorde ik toen als: mijn design tot leven brengen in code. Het leek mij mooi dit te combineren met het nut van een portfoliowebsite. Dit gaf mij de mogelijkheid om mijn persoonlijke merk te definiëren en eens vooruit te kijken waar ik dan terecht wilde komen in het werkveld. Ik heb gekeken naar hoe internet agencies zich profileren en heb dat als inspiratie gebruikt om mijn eigen boodschap te visualiseren. Dit zie je terug in taalgebruik, visuals en de animaties. Ook keek ik naar mijn eigen voorkeuren en interesses en heb deze in kleurgebruik en visuals terug laten komen.</p>"
+    },
+    "procesTasks": [
+      "Bibliotheekonderzoek",
+      "Huisstijlgids",
+      "Klikbaar design",
+      "Website"
+
+    ],
+    "productConclusie": {
+        "productConclusieDescription": "Uit het analyseren van internetbureaus, mijzelf en een grote reeks websites, trok ik de volgende conclusies:",
+        "productConclusieSummary": "<p>Internet agencies in mijn optiek informeel communiceren. Mijn merk heb ik gestoeld op retro in combinatie met modern, iets dat past bij mij als persoon. In de uitwerking in code heb ik veel geëxperimenteerd met vanilla javascript, animatieframeworks. In design heb ik dus voornamelijk gekeken naar stijl en visuals.</p>"
+    },
+    "productResultaat": "<p>De <a href='https://i361913.hera.fhict.nl/site2/' target='_blank' rel='noopener noreferrer'>website</a> staat nog steeds op mijn server. De code tref je in deze <a href='https://github.com/midasmaas/Portfoliowebsite2' target='_blank' rel='noopener noreferrer'>GIT</a>. De initiële ontwerpen zijn hieronder te zien.</p>",
+    "IMGSlider": [
+      {
+        "imageBaseValue": "Portfolio2-1.jpg"
+      },
+      {
+        "imageBaseValue": "Portfolio2-2.jpg"
+      },
+      {
+        "imageBaseValue": "Portfolio2-3.jpg"
+      },
+      {
+        "imageBaseValue": "Portfolio2-4.jpg"
+      },
+      {
+        "imageBaseValue": "Portfolio2-5.jpg"
+      }
+    ]
+  },
+  {
+    "productTitle": "MovieTalk",
+    "productDescription": "Zie wat je vrienden en familie kijken en aanbevelen.",
+    "productSubTitle": "UI/UX, JAVASCRIPT",
+    "productCRTIMG": "ProductIMGOmroepFlevo.png",
+    "productThumbnail": "OmroepFlevoZW.png",
+    "productClient": "Fontys",
+    "productSkills": "UI/UX, Javascript",
+    "productDoelstellingContext": {
+      "DoelstellingDescription": "Maak een app waar/die:",
+      "DoelstellingTasks": [
+        "Vraag naar is",
+        "Technisch werkt",
+        "Gebruiksvriendelijk is"
+      ],
+      "ContextDescription" : "<p>In jaar drie van mijn studie deed ik de specialisatie Smart Mobile. Hier leerde ik de basis van app-design en development. Het idee dat mijn studiegenoot en ik hadden, was om een ‘Untapped voor films’ te creëren. Oftewel: je checkt in wat je keek en wat je er van vond en dit komt op een tijdlijn te staan. Zo is het vinden van goede kijktips eenvoudig en sociaal. Dit idee werkten wij uit voor Android, iOS en web. De apps waren redelijk basis en bevatten een zoekfunctie, een eenvoudige (persoonlijke) tijdlijn en een basisprofiel. </p>"
+    },
+    "procesTasks": [
+      "Concepting",
+      "Klikbaar design",
+      "POC’s",
+      "User tests"
+    ],
+    "productConclusie": {
+        "productConclusieDescription": "Uit de onderzoeken met gebruikers en experts, trokken we de volgende conclusies:",
+        "productConclusieSummary": "<p>De meeste respondenten sprak dit idee aan. Het kiezen van een film of serie kan lastig zijn en dit zou daarbij kunnen helpen. Experts in het veld van tv- en filmplatforms waren aangesproken door het idee.</p>"
+    },
+    "productResultaat": "<p>In deze video’s zie je de uitwerking van de <a href='https://www.youtube.com/watch?v=tKoXMtKyp-I' target='_blank' rel='noopener noreferrer'>iOS-app</a> en de <a href='https://www.youtube.com/watch?v=PpkjKrr85DQ&t=1s' target='_blank' rel='noopener noreferrer'>web-app</a>. De code van de web-app vind je op deze <a href='https://github.com/midasmaas/MovieTalk' target='_blank' rel='noopener noreferrer'>GIT</a>. Afbeeldingen van de UI, zie je in de galerij.</p>",
+    "IMGSlider": [
+      {
+        "imageBaseValue": "MovieTalk1.jpg"
+      }
+    ]
+  },
+  {
+    "productTitle": "Project Z",
+    "productDescription": "Mijn passieproject uit jaar twee waarin ik speelde met illustraties en animaties.",
+    "productSubTitle": "JAVASCRIPT, DESIGN, BRANDING",
+    "productCRTIMG": "ProductIMGOmroepFlevo.png",
+    "productThumbnail": "OmroepFlevoZW.png",
+    "productClient": "Fontys",
+    "productSkills": "Javascript, design, branding",
+    "productDoelstellingContext": {
+      "DoelstellingDescription": "Ik wilde graag een proof of concept maken waarin:",
+      "DoelstellingTasks": [
+        "Een webanimatie de website tot leven brengt",
+        "Ik leer werken met animatielibrarie’s",
+        "Ik leer werken met isometrische illustraties"
+
+      ],
+      "ContextDescription" : "<p>In Project Z in het tweede jaar van mijn studie kreeg ik de kans om zelf een project te bedenken. Ik wilde graag aan de slag met illustraties en wilde deze illustraties in een scrollanimatie maken om het zo tot leven te brengen. Hierin koos ik ervoor om een fictieve portfoliowebsite te maken. Het was een goede les in het gebruik Adobe Illustrator en het gebruik van animatielibraries in Javascript.</p>"
+    },
+    "procesTasks": [
+      "Schetsen",
+      "Design iteraties",
+      "POC’s"
+    ],
+    "productConclusie": {
+        "productConclusieDescription": "Na drie weken illustreren en coderen, concludeerde ik dat:",
+        "productConclusieSummary": "<p>Ik het tot leven brengen van een design van idee naar prototype een mooie ervaring vond.</p>"
+    },
+    "productResultaat": "<p>De code van het project, tref je op deze <a href='https://github.com/midasmaas/projectZ' target='_blank' rel='noopener noreferrer'>GIT</a>. Een video(https://www.youtube.com/watch?v=mkIm5J73kQI ) van het werkende resultaat zie je hier. De ontwerpen waarop deze gebaseerd zijn, zie je hieronder.</p>",
+    "IMGSlider": [
+      {
+        "imageBaseValue": "ProjectZ-1.jpg"
+      },
+      {
+        "imageBaseValue": "ProjectZ-2.jpg"
       }
     ]
   }
+  
 ]
