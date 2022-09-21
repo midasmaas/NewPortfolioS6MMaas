@@ -1,10 +1,5 @@
 <template>
-<div id="app">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Midas</title>
-</head>  
+<div id="app">  
 <hamburger-menu></hamburger-menu>
     <router-view class="container_grid__nav_view"/>
   <footer-bottom></footer-bottom>

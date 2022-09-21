@@ -182,11 +182,11 @@
   {
     "productTitle": "Portfoliowebsite 2.0",
     "productDescription": "Mijn visitekaartje waarmee ik mijn tweedejaarsstage heb gevonden.",
-    "productSubTitle": "WEBDESIGN, JAVASCRIPT, BRANDING",
+    "productSubTitle": "WEBDESIGN, JS, BRANDING",
     "productCRTIMG": "ProductIMGOmroepFlevo.png",
     "productThumbnail": "OmroepFlevoZW.png",
     "productClient": "Fontys",
-    "productSkills": "Webdesign, javascript, branding",
+    "productSkills": "Webdesign, js, branding",
     "productDoelstellingContext": {
       "DoelstellingDescription": "Ik wilde voor mijzelf een digitaal visitekaartje creëren waarmee ik:",
       "DoelstellingTasks": [
@@ -231,11 +231,11 @@
   {
     "productTitle": "MovieTalk",
     "productDescription": "Zie wat je vrienden en familie kijken en aanbevelen.",
-    "productSubTitle": "UI/UX, JAVASCRIPT",
+    "productSubTitle": "UI/UX, JS",
     "productCRTIMG": "ProductIMGOmroepFlevo.png",
     "productThumbnail": "OmroepFlevoZW.png",
     "productClient": "Fontys",
-    "productSkills": "UI/UX, Javascript",
+    "productSkills": "UI/UX, JS",
     "productDoelstellingContext": {
       "DoelstellingDescription": "Maak een app waar/die:",
       "DoelstellingTasks": [
@@ -265,11 +265,11 @@
   {
     "productTitle": "Project Z",
     "productDescription": "Mijn passieproject uit jaar twee waarin ik speelde met illustraties en animaties.",
-    "productSubTitle": "JAVASCRIPT, DESIGN, BRANDING",
+    "productSubTitle": "JS, DESIGN, BRANDING",
     "productCRTIMG": "ProductIMGOmroepFlevo.png",
     "productThumbnail": "OmroepFlevoZW.png",
     "productClient": "Fontys",
-    "productSkills": "Javascript, design, branding",
+    "productSkills": "JS, design, branding",
     "productDoelstellingContext": {
       "DoelstellingDescription": "Ik wilde graag een proof of concept maken waarin:",
       "DoelstellingTasks": [
@@ -345,5 +345,4 @@
       }
     ]
   }
-  
 ]
