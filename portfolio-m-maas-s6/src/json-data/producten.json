@@ -298,6 +298,52 @@
         "imageBaseValue": "ProjectZ-2.jpg"
       }
     ]
+  },
+  {
+    "productTitle": "Huisstijl Kick Ass Branding",
+    "productDescription": "Een huisstijl voor Kick Ass Branding, een bedrijfje voor de minor graphic design.",
+    "productSubTitle": "BRANDING, GRAPHIC DESIGN",
+    "productCRTIMG": "ProductIMGOmroepFlevo.png",
+    "productThumbnail": "OmroepFlevoZW.png",
+    "productClient": "Fontys",
+    "productSkills": "Branding, graphic design",
+    "productDoelstellingContext": {
+      "DoelstellingDescription": "Richt een fictief bedrijf op dat:",
+      "DoelstellingTasks": [
+        "Zich richt op een niche",
+        "Een mission statement heeft",
+        "Een passende huisstijl heeft"
+
+
+      ],
+      "ContextDescription" : "<p>Ik volg momenteel de minor graphic design. Voor deze minor moeten wij opereren als een grafisch bureau en betalende klanten werven. We richten ons met Kick Ass op de startende ondernemers en ZZP’ers onder de slogan ‘wij kickstarten jouw bedrijf.’ Ik bedacht een huisstijl waarop onze visuele uitingen zijn gebaseerd. Ik heb mij voor deze huisstijl laten inspireren door superhelden, gezien ik meteen moest denken aan de superhelden comedy Kick-Ass. Het past bij de informele houding die ons fictieve bedrijf typeert.</p>"
+    },
+    "procesTasks": [
+      "Moodboard",
+      "Iteraties",
+      "Huisstijlboek"
+    ],
+    "productConclusie": {
+        "productConclusieDescription": "De feedback van de design docenten laat zich samenvatten tot de volgende conclusie:",
+        "productConclusieSummary": "<p>Het merkverhaal is sterk en past bij het idee dat de groep heeft bij Kick-Ass. Met wat kleine correcties, is het een coherente huisstijl die de groep kan gebruiken voor visuele uitingen.</p>"
+    },
+    "productResultaat": "<p>De logo’s en visuele uitingen zie je in deze gallerij.</p>",
+    "IMGSlider": [
+      {
+        "imageBaseValue": "HuisstijlKickAss-1.jpg"
+      },
+      {
+        "imageBaseValue": "HuisstijlKickAss-2.jpg"
+      },
+      {
+        "imageBaseValue": "HuisstijlKickAss-3.jpg"
+      },
+      {
+        "imageBaseValue": "HuisstijlKickAss-4.jpg"
+      },{
+        "imageBaseValue": "HuisstijlKickAss-5.jpg"
+      }
+    ]
   }
   
 ]
