@@ -29,10 +29,10 @@
           <img class="_FBIcon" src="../assets/FBIcon.png" />
       </div>
       <div class="ContactBanner_bottomBar">
-          <img class="_icon" src="../assets/BeIcon.png" />
+          <img class="_icon" src="../assets/LIIcon.png" />
       </div>
       <div class="ContactBanner_bottomBar _right">
-          <img class="_icon" src="../assets/LIIcon.png" />
+          <img class="_icon" src="../assets/spotify-128.png" />
       </div>
     </div>
   </div>
