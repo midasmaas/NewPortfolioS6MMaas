@@ -83,10 +83,12 @@
 
         ._TagLine_Text {
             padding-right: 16px;
+            width: fit-content;
+            white-space: nowrap;
         }
 
         .bar {
-            width: 50%;
+            width: 100%;
             height: 55%;
             background: $brand-color;
             align-self: center;
@@ -179,8 +181,10 @@
 }
 
 ._EmptyInfo {
-    width: 100%;
+    width: 102%;
     height: 110%;
+    margin-top: 8px;
+    
     border: none;
     background: $background-color;
 }

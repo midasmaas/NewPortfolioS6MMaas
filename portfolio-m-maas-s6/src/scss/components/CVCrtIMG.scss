@@ -1,17 +1,25 @@
 .CVCrtIMG_container{
     position: relative;
-    //padding-top: 64px;
+    padding-top: 64px;
     grid-column: 1/5;
+    width: 100%;
+    //align-items: center;
+    justify-content: center;
+    display: flex;
     @include media-breakpoint-up(sm) {
         grid-column: 2/8;
     }
 
     @include media-breakpoint-up(md) {
         grid-column: 1/9;
+        
+        
     }
 
     @include media-breakpoint-up(lg) {
         grid-column: 7/13;
+        justify-content: flex-end;
+        padding-top: 0;
     }
 
     @include media-breakpoint-up(xl) {
@@ -31,7 +39,7 @@
     //padding-top: 64px;
     width: 100%;
     background-image: url('assets/CRTOutline.png');
-    background-size: 100% 100%;
+    background-size: 100% 80%;
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -39,6 +47,7 @@
     grid-column: 1/5;
     @include media-breakpoint-up(sm) {
         grid-column: 1/9;
+        background-size: 100% 100%;
     }
 
     @include media-breakpoint-up(lg) {
@@ -52,7 +61,27 @@
     align-self: center;
     justify-self: center;
     margin-bottom: 64px;
-    padding: 65px 55px 75px 55px;
+    padding: 72px 28px 48px 28px;
+
+    @include media-breakpoint-up(sm) {
+        padding: 64px 50px 72px 50px;
+    }
+    @include media-breakpoint-up(md) {
+        padding: 70px 55px 82px 55px;
+    }
+    @include media-breakpoint-up(lg) {
+    padding: 88px 66px 124px 66px;
+    }
+    @include media-breakpoint-up(xl) {
+        padding: 100px 76px 160px 76px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        padding: 124px 94px 198px 99px;
+    }
+    @include media-breakpoint-up(xxxl) {
+        padding: 150px 116px 262px 120px;
+    }
 }
 
 .vueper_absolute{
@@ -88,7 +117,13 @@
     position: relative;
     z-index: -5;
     height: fit-content;
-    width: 82%;
-    top: 10%;
-    left: 9%;
+
+    width: 67%;
+    padding-top: 8px;
+    left: 0%;
+    @include media-breakpoint-up(lg) {
+    width: 67%;
+    padding-top: 40px;
+    left: -6%;
+    }
 }

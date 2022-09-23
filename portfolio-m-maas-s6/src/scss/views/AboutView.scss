@@ -110,7 +110,7 @@ overflow: hidden;
     background-position: 0 0, 5px 5px;
     background-repeat: repeat;
     top: 8px;
-    left: -4px;
+    left: -7px;
     height: 78px;
     width: 192px;
     @include media-breakpoint-up(sm){
@@ -122,9 +122,9 @@ overflow: hidden;
       width: 326px;
     }
     @include media-breakpoint-up(xxxl){
-      left: -10px;
-      height: 152px;
-      width: 400px;
+      left: -5px;
+      height: 148px;
+      width: 390px;
     }
   }
   

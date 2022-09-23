@@ -15,7 +15,7 @@
       <div class="Banner_container headline_banner">
 
         <div class="Banner_container_background_outline">
-          <div class="Banner_container_background_shadow"></div>
+          <div class="Banner_container_background_shadow_avatar"></div>
           <div class="Banner_container_background_bar">
             <div class="Banner_container_background_bar_dot"></div>
             <div class="Banner_container_background_bar_dot"></div>

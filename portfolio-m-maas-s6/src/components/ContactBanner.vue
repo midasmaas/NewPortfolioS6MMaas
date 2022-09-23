@@ -21,7 +21,7 @@
     </div>
     </div>
     <div class="ContactBanner_bottomBar_container">
-        <div class="ContactBanner_container_background_shadow"></div>
+        <div class="ContactBanner_container_background_shadow_buttonRow"></div>
       <div class="ContactBanner_bottomBar _Icon_left">
           <img class="_icon" src="../assets/WAIcon.png" />
       </div>
