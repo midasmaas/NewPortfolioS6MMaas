@@ -9,26 +9,31 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    @include media-breakpoint-up(md){
+    flex-wrap: nowrap;
+    }
+    width: 100%;
+    justify-content: center;
+    padding: 64px 0 0 0;
 }
 
 .productSelector_btn_reverseArrow{
     position: absolute;
     transform: rotate(180deg);
     margin-left: -24px;
-    color: #fff;
+    color: #000;
 }
 
 .productSelector_button {
-    background-color: $brand-color;
-    align-self: flex-start;
-    border: solid 8px black;
+    cursor: pointer;
+    //align-self: flex-start;
     white-space: nowrap;
     z-index: 5;
-    display: flex;
-    flex-direction: row;
+    //display: grid;
+    //flex-direction: row;
     transition: all .15s linear .15s;
-    width: 30%;
+    width: fit-content;
     height: fit-content;
     justify-content: center;
     top: 0;
@@ -40,16 +45,63 @@
     }
 
     p {
-        color: white;
-        padding: 16px 0 16px 0;
-        font-size: 16px;
+        color: #000;
+        padding: 16px;
+        font-size: 24px;
         @include media-breakpoint-up(sm){
             font-size: 24px;
-            padding: 32px 0 32px 0;
+            padding: 32px;
         }
         @include media-breakpoint-up(xl){
         font-size: 32px;
         }
 
     }
+}
+
+.productSelector_button_left{
+    place-self: center start;
+    display: none;
+    @include media-breakpoint-up(md){
+        display: block;
+    }
+    padding-left: 40px;
+    @include media-breakpoint-up(lg){
+    padding-left: 0px;
+    }
+}
+
+.productSelector_button_right{
+    display: none;
+    @include media-breakpoint-up(md){
+        display: block;
+    }
+    @include media-breakpoint-up(md){
+    margin-right: 0;
+    margin-left: auto;
+    }
+}
+
+.productSelector_button_left_small{
+    display: block;
+    @include media-breakpoint-up(sm){
+    padding-left: 64px;
+    }
+    @include media-breakpoint-up(md){
+        display: none;
+    }
+    
+}
+
+.productSelector_button_right_small{
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    @include media-breakpoint-up(sm){
+        padding-right: 40px;
+        }
+    @include media-breakpoint-up(md){
+        display: none;
+    }
+
 }

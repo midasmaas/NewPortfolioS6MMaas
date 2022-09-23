@@ -1,10 +1,23 @@
 <template>
     <div class="productSelector_container">
-        <a class="productSelector_button" @click="back" v-if="isNotFirstProduct">
-            <p><span class="productSelector_btn_reverseArrow">> </span>Vorige</p>
+
+        <!--Desktop knoppen-->
+        <a class="productSelector_button productSelector_button_left" @click="back" v-if="isNotFirstProduct">
+            <p><span class="productSelector_btn_reverseArrow">> </span>Vorige: {{this.buttonTextPrevChapter}}</p>
         </a>
 
-        <a class="productSelector_button" @click="forward" v-if="isNotLastProduct">
+        <a class="productSelector_button productSelector_button_right" @click="forward" v-if="isNotLastProduct">
+            <p>Volgende: {{this.buttonTextNextChapter}} ></p>
+        </a>
+
+        <!--Mobile knoppen-->
+        <a class="productSelector_button productSelector_button_left_small" @click="back" v-if="isNotFirstProduct">
+            <p><span class="productSelector_btn_reverseArrow">> </span>
+            Vorige
+            </p>
+        </a>
+
+        <a class="productSelector_button productSelector_button_right_small" @click="forward" v-if="isNotLastProduct">
             <p>Volgende ></p>
         </a>
     </div>
@@ -32,6 +45,24 @@ export default {
             return false
         } else return true
 
+    },
+    buttonTextNextChapter(){
+        let minWidth = window.matchMedia("(min-width: 768px)")
+        if (minWidth.matches){
+        const nextProductId = parseInt(this.$route.params.productid) + 1;
+        const nextProductName = productenJson[nextProductId].productTitle;
+        return `${nextProductName}`
+        }
+        else return ""
+    },
+    buttonTextPrevChapter(){
+        let minWidth = window.matchMedia("(min-width: 768px)")
+        if (minWidth.matches){
+        const prevProductId = parseInt(this.$route.params.productid) - 1;
+        const prevProductName = productenJson[prevProductId].productTitle;
+        return `${prevProductName}`
+        }
+        else return ""
     }
   },
   methods:{
