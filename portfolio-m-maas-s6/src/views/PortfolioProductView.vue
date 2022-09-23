@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="container_grid">
+      <product-selector></product-selector>
       <product-banner :dataForProductBanner="currentProduct"></product-banner>
 
       <!--CRT IMG-->
@@ -79,13 +80,14 @@ import ProcesVisual from "../components/procesVisual.vue";
 import ConclusieBanner from "../components/conclusieBanner.vue";
 import ResultaatBanner from "../components/resultaatBanner.vue";
 import BannerCopy from "../components/windowCRT.vue";
-
+import ProductSelector from '../components/productSelector.vue';
 //Data
 import productJson from "../json-data/producten.json";
 
 //Vueper
 import { VueperSlides, VueperSlide } from "vueperslides";
 import "vueperslides/dist/vueperslides.css";
+
 
 export default {
   components: {
@@ -97,6 +99,7 @@ export default {
     ResultaatBanner,
     VueperSlides,
     VueperSlide,
+    ProductSelector,
   },
   name: "PortfolioProductView",
   computed: {

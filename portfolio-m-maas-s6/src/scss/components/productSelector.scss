@@ -1,0 +1,55 @@
+.productSelector_container{
+    grid-column: 1/5;
+    @include media-breakpoint-up(sm){
+        grid-column: 1/9;
+    }
+    @include media-breakpoint-up(lg){
+        grid-column: 1/13;
+    }
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.productSelector_btn_reverseArrow{
+    position: absolute;
+    transform: rotate(180deg);
+    margin-left: -24px;
+    color: #fff;
+}
+
+.productSelector_button {
+    background-color: $brand-color;
+    align-self: flex-start;
+    border: solid 8px black;
+    white-space: nowrap;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    transition: all .15s linear .15s;
+    width: 30%;
+    height: fit-content;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    p {
+        color: white;
+        padding: 16px 0 16px 0;
+        font-size: 16px;
+        @include media-breakpoint-up(sm){
+            font-size: 24px;
+            padding: 32px 0 32px 0;
+        }
+        @include media-breakpoint-up(xl){
+        font-size: 32px;
+        }
+
+    }
+}
