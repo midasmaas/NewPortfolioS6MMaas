@@ -559,6 +559,10 @@ overflow: hidden;
     left: 82%;
     top: 38%;
   }
+  @include media-breakpoint-up(xxxxl){
+    visibility: hidden;
+    display: none;
+  }
   img{
     width: 80%;
     @include media-breakpoint-up(md){
@@ -600,6 +604,10 @@ overflow: hidden;
     left: 25%;
     top: 48%;
   }
+  @include media-breakpoint-up(xxxxl){
+    visibility: hidden;
+    display: none;
+  }
   img{
     width: 80%;
     @include media-breakpoint-up(md){
@@ -621,6 +629,10 @@ overflow: hidden;
     left: 65%;
     top: 60%;
   }
+  @include media-breakpoint-up(xxxxl){
+    visibility: hidden;
+    display: none;
+  }
   img{
     width: 80%;
     @include media-breakpoint-up(md){
@@ -641,6 +653,10 @@ overflow: hidden;
   @include media-breakpoint-up(sm){
     left: 50%;
     top: 75%;
+  }
+  @include media-breakpoint-up(xxxxl){
+    visibility: hidden;
+    display: none;
   }
   img{
     width: 80%;
@@ -674,7 +690,11 @@ overflow: hidden;
   }
   @include media-breakpoint-up(xxxl){
     left: 35%;
-    top: 30%;
+    top: 29%;
+  }
+  @include media-breakpoint-up(xxxxl){
+    visibility: hidden;
+    display: none;
   }
   img{
     width: 80%;
@@ -699,16 +719,20 @@ overflow: hidden;
     top: 38%;
   }
   @include media-breakpoint-up(xl){
-    left: 35%;
-    top: 26%;
+    left: 56%;
+    top: 42%;
   }
   @include media-breakpoint-up(xxl){
-    left: 35%;
-    top: 26%;
+    left: 57%;
+    top: 42%;
   }
   @include media-breakpoint-up(xxxl){
     left: 58%;
     top: 44%;
+  }
+  @include media-breakpoint-up(xxxxl){
+    visibility: hidden;
+    display: none;
   }
   img{
     width: 80%;
@@ -747,6 +771,10 @@ overflow: hidden;
   @include media-breakpoint-up(xxxl){
     left: 50%;
     top: 57%;
+  }
+  @include media-breakpoint-up(xxxxl){
+    visibility: hidden;
+    display: none;
   }
   img{
     width: 80%;

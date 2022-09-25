@@ -1,5 +1,14 @@
 [
     {
+        "jobTitle": "FHJ",
+        "jobSubTitle": "Studie journalistiek",
+        "jobDescription": "Voor ik ICT studeerde, had ik de ambitie om muziekjournalist te worden. Hoewel ik deze ambitie heb verruild, blijven de lessen in schrijfvaardigheid, interviewvaardigheden, taalgevoel en meer tot op heden nuttig in mijn carrière.",
+        "jobBasis": "Studie",
+        "jobDuur": "08-2016 t/m 12-2019",
+        "jobLink": "https://midasmaas.fhj.nl/",
+        "jobJaar": "2016"
+    },
+    {
         "jobTitle": "Aardschok",
         "jobSubTitle": "Hardrock magazine",
         "jobDescription": "Ik schreef recensies, interviews en verslagen voor Nederlands enige fysieke hardrock-magazine.",
@@ -11,29 +20,20 @@
     {
         "jobTitle": "The Daily Indie",
         "jobSubTitle": "Online indie magazine",
-        "jobDescription": "Ik schreef recensies, interviews en verslagen voor online magazine The Daily Indie",
+        "jobDescription": "Ik liep stage bij dit Nederlands online indie magazine. Daarna bleef ik plakken en schreef recensies, interviews en verslagen.",
         "jobBasis": "Free-lance",
         "jobDuur": "02-2018 t/m 06-2020",
         "jobLink": "https://www.thedailyindie.nl/thomas-azier-de-enige-manier-om-niet-gek-te-worden-is-om-aan-de-boom-te-schudden-en-alles-eruit-te-flikkeren-wat-ik-niet-nodig-heb/",
         "jobJaar": "2018"
     },
     {
-        "jobTitle": "Beter Bed",
-        "jobSubTitle": "Beddenzaak",
-        "jobDescription": "Naast mijn studie werk ik tegenwoordig als verkoper bij deze beddenzaak in Tilburg. Verkopen is een vaardigheid waarin de klantwens centraal staat.",
-        "jobBasis": "Part-time",
-        "jobDuur": "08-2020 t/m heden",
-        "jobLink": "https://www.beterbed.nl/winkel/noord-brabant/tilburg",
-        "jobJaar": "2020"
-    },
-    {
-        "jobTitle": "Partout Agency",
-        "jobSubTitle": "Full-service internet agency",
-        "jobDescription": "Ik liep stage als designer en front-end-developer. Zo ontwierp en bouwde ik een onboardingwebsite in Vue",
-        "jobBasis": "Stage",
-        "jobDuur": "08-2021 t/m 02-2022",
-        "jobLink": "https://www.partout.nl/",
-        "jobJaar": "2021"
+        "jobTitle": "FHICT",
+        "jobSubTitle": "Studie ICT & Media Design",
+        "jobDescription": "Journalistiek heb ik verruild voor ICT & Media design. Ik houd van de combinatie tussen het creatieve en het technische.",
+        "jobBasis": "Free-lance",
+        "jobDuur": "08-2019 t/m heden",
+        "jobLink": "https://i361913.hera.fhict.nl/site3/",
+        "jobJaar": "2019"
     },
     {
         "jobTitle": "Beter Bed",
@@ -54,48 +54,12 @@
         "jobJaar": "2021"
     },
     {
-        "jobTitle": "Beter Bed",
-        "jobSubTitle": "Beddenzaak",
-        "jobDescription": "Naast mijn studie werk ik tegenwoordig als verkoper bij deze beddenzaak in Tilburg. Verkopen is een vaardigheid waarin de klantwens centraal staat.",
-        "jobBasis": "Part-time",
-        "jobDuur": "08-2020 t/m heden",
-        "jobLink": "https://www.beterbed.nl/winkel/noord-brabant/tilburg",
-        "jobJaar": "2020"
-    },
-    {
-        "jobTitle": "Partout Agency",
-        "jobSubTitle": "Full-service internet agency",
-        "jobDescription": "Ik liep stage als designer en front-end-developer. Zo ontwierp en bouwde ik een onboardingwebsite in Vue",
-        "jobBasis": "Stage",
-        "jobDuur": "08-2021 t/m 02-2022",
-        "jobLink": "https://www.partout.nl/",
-        "jobJaar": "2021"
-    },
-    {
-        "jobTitle": "Partout Agency",
-        "jobSubTitle": "Full-service internet agency",
-        "jobDescription": "Ik liep stage als designer en front-end-developer. Zo ontwierp en bouwde ik een onboardingwebsite in Vue",
-        "jobBasis": "Stage",
-        "jobDuur": "08-2021 t/m 02-2022",
-        "jobLink": "https://www.partout.nl/",
-        "jobJaar": "2021"
-    },
-    {
-        "jobTitle": "Beter Bed",
-        "jobSubTitle": "Beddenzaak",
-        "jobDescription": "Naast mijn studie werk ik tegenwoordig als verkoper bij deze beddenzaak in Tilburg. Verkopen is een vaardigheid waarin de klantwens centraal staat.",
-        "jobBasis": "Part-time",
-        "jobDuur": "08-2020 t/m heden",
-        "jobLink": "https://www.beterbed.nl/winkel/noord-brabant/tilburg",
-        "jobJaar": "2020"
-    },
-    {
-        "jobTitle": "Partout Agency",
-        "jobSubTitle": "Full-service internet agency",
-        "jobDescription": "Ik liep stage als designer en front-end-developer. Zo ontwierp en bouwde ik een onboardingwebsite in Vue",
-        "jobBasis": "Stage",
-        "jobDuur": "08-2021 t/m 02-2022",
-        "jobLink": "https://www.partout.nl/",
-        "jobJaar": "2021"
+        "jobTitle": "Graphic design",
+        "jobSubTitle": "Minor",
+        "jobDescription": "Momenteel volg ik de minor graphic design. Hier hoop ik meer te leren over mooi design, naast functioneel design, waar mijn studie zich met UI/UX voornamelijk op richt.",
+        "jobBasis": "Free-lance",
+        "jobDuur": "08-2022 t/m heden",
+        "jobLink": "https://i361913.hera.fhict.nl/site3/portfolio/product/7",
+        "jobJaar": "2022"
     }
 ]

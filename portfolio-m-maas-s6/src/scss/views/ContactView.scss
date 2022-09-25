@@ -20,6 +20,18 @@
   @include media-breakpoint-up(xxl){
     left: -40px;
   }
+  @include media-breakpoint-up(xxxl){
+    left: -40px;
+    width: 350px;
+  }
+  @include media-breakpoint-up(xxxlI){
+    left: 140px;
+    width: 450px;
+  }
+  @include media-breakpoint-up(xxxxl){
+    left: 300px;
+    width: 440px;
+  }
   
 }
 
@@ -49,6 +61,9 @@
       width: 100%;
     }
     @include media-breakpoint-up(xl){
+      left: 10%;
+    }
+    @include media-breakpoint-up(xxl){
       left: 10%;
     }
     @include media-breakpoint-up(xxl){

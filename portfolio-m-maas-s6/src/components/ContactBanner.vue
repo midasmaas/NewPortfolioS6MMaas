@@ -22,18 +22,18 @@
     </div>
     <div class="ContactBanner_bottomBar_container">
         <div class="ContactBanner_container_background_shadow_buttonRow"></div>
-      <div class="ContactBanner_bottomBar _Icon_left">
+      <a href="https://wa.me/31613733474" target="_blank" rel="noopener noreferrer" class="ContactBanner_bottomBar _Icon_left">
           <img class="_icon" src="../assets/WAIcon.png" />
-      </div>
-      <div class="ContactBanner_bottomBar ">
+      </a>
+      <a href="https://www.facebook.com/midas.maas" target="_blank" rel="noopener noreferrer"  class="ContactBanner_bottomBar ">
           <img class="_FBIcon" src="../assets/FBIcon.png" />
-      </div>
-      <div class="ContactBanner_bottomBar">
+      </a>
+      <a href="https://www.linkedin.com/in/midas-maas-82142b5b/" target="_blank" rel="noopener noreferrer"  class="ContactBanner_bottomBar">
           <img class="_icon" src="../assets/LIIcon.png" />
-      </div>
-      <div class="ContactBanner_bottomBar _right">
+      </a>
+      <a href="https://open.spotify.com/playlist/2vsslP12Y9LOqOA91YVHFA?si=8f1d55d8a9de4222" target="_blank" rel="noopener noreferrer"  class="ContactBanner_bottomBar _right">
           <img class="_icon" src="../assets/spotify-128.png" />
-      </div>
+      </a>
     </div>
   </div>
   </div>
