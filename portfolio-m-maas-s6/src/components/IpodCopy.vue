@@ -11,6 +11,7 @@
           <img src="../assets/IpodBattery.png" />
         </div>
       </div>
+      <div class="Ipod_menu_list_container">
       <ul class="Ipod_menu_list" v-for="(link, key) in dataForIpod" :key="key">
         <router-link
           active-class="active-ipod"
@@ -20,6 +21,7 @@
           {{ link.jobTitle }}
         </router-link>
       </ul>
+      </div>
     </div>
   </div>
 </template>

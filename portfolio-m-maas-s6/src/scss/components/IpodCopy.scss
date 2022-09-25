@@ -1,121 +1,169 @@
-.Ipod_container{
+.Ipod_container {
     position: relative;
     grid-column: 1/5;
     display: grid;
     align-self: flex-end;
     padding-top: 24px;
 
-    @include media-breakpoint-up(sm){
+    @include media-breakpoint-up(sm) {
         grid-column: 1/9;
         padding-top: 64px;
     }
-    @include media-breakpoint-up(lg){
+
+    @include media-breakpoint-up(lg) {
         grid-column: 8/13;
         padding-top: 0;
     }
 }
 
-.Ipod_banner{
+.Ipod_banner {
     width: 100%;
     height: auto;
     visibility: hidden;
     display: none;
-    @include media-breakpoint-up(lg){
+
+    @include media-breakpoint-up(lg) {
         display: block;
         visibility: visible;
     }
 }
 
-.Ipod_banner_mobile{
+.Ipod_banner_mobile {
     width: 100%;
     height: auto;
     visibility: visible;
     display: block;
-    @include media-breakpoint-up(lg){
+
+    @include media-breakpoint-up(lg) {
         visibility: hidden;
         display: none;
     }
 }
 
-.Ipod_menu{
+.Ipod_menu_list_container {
+    overflow-y: scroll;
+
+}
+
+/* width */
+.Ipod_menu_list_container::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.Ipod_menu_list_container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.Ipod_menu_list_container::-webkit-scrollbar-thumb {
+    background: #000;
+    width: 10px;
+}
+
+/* Handle on hover */
+.Ipod_menu_list_container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.Ipod_menu {
     position: absolute;
     z-index: 1;
     width: 67%;
-    height: 59%;
+    height: 50%;
     top: 19%;
-    @include media-breakpoint-up(sm){
-        top: 21%; 
+    height: 62%;
+    //overflow-y: scroll;
+    @include media-breakpoint-up(sm) {
+        top: 21%;
+        height: 60%;
+        
     }
-    @include media-breakpoint-up(lg){
-        top: 8%
+    @include media-breakpoint-up(md) {
+        height: 60%;
     }
+
+
+    @include media-breakpoint-up(lg) {
+        top: 8%;
+        height: 50%;
+    }
+
     left: 17%;
     display: flex;
     flex-direction: column;
-    p{
+
+    p {
         font-family: 'VT323', monospace;
         font-size: 24px;
-        @include media-breakpoint-up(sm){
+
+        @include media-breakpoint-up(sm) {
+            font-size: 32px;
+        }
+
+        @include media-breakpoint-up(xxl) {
+            font-size: 40px;
+        }
+    }
+
+    li {
+        font-family: 'VT323', monospace;
         font-size: 32px;
-        }
-        @include media-breakpoint-up(xxl){
-        font-size: 40px;
-        }
-        }
+    }
 
-        li{
-                font-family: 'VT323', monospace;
-                font-size: 32px;
-        }
-        ul{
-            padding-left: 32px;
+    ul {
+        padding-left: 32px;
 
-        }
+    }
 }
 
-.Ipod_menu_link{
+.Ipod_menu_link {
     font-family: 'VT323', monospace;
     text-decoration: none;
     font-size: 24px;
-    @include media-breakpoint-up(sm){
+
+    @include media-breakpoint-up(sm) {
         font-size: 32px;
     }
-    @include media-breakpoint-up(xxl){
+
+    @include media-breakpoint-up(xxl) {
         font-size: 40px;
     }
 }
 
-.Ipod_menu_background{
+.Ipod_menu_background {
     position: absolute;
     z-index: -5;
     width: 67%;
-    
+
     background-color: white;
     top: 10%;
     left: 17%;
     height: 75%;
-    @include media-breakpoint-up(lg){
+
+    @include media-breakpoint-up(lg) {
         top: 5%;
         height: 59%;
     }
 }
 
-.active-ipod{
+.active-ipod {
     color: white;
     background-color: black;
-    animation:  iPodAnim 200ms ease-in-out forwards;
+    animation: iPodAnim 200ms ease-in-out forwards;
 }
 
 @keyframes iPodAnim {
     from {
-     opacity: 0;
+        opacity: 0;
     }
-    to {
-      opacity: 1;
-    }
-  }
 
-.Ipod_menu_status_bar{
+    to {
+        opacity: 1;
+    }
+}
+
+.Ipod_menu_status_bar {
     align-self: start;
     width: 100%;
     border-bottom: 4px solid;
@@ -124,30 +172,33 @@
     justify-content: flex-end;
     flex-direction: row;
     height: 32px;
-    @include media-breakpoint-up(sm){
+
+    @include media-breakpoint-up(sm) {
         height: 48px;
     }
-    
-    img{
+
+    img {
         padding-right: 16px;
         height: 16px;
         align-self: center;
-        @include media-breakpoint-up(sm){
+
+        @include media-breakpoint-up(sm) {
             height: auto;
         }
     }
 }
 
-.Ipod_menu_status_bar_alignment{
+.Ipod_menu_status_bar_alignment {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 70%;
-    @include media-breakpoint-up(xl){
+
+    @include media-breakpoint-up(xl) {
         width: 60%;
     }
 }
 
-.Ipod_menu_list{
+.Ipod_menu_list {
     list-style: none;
 }
