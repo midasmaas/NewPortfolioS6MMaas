@@ -129,6 +129,7 @@ export default {
   }),
   methods: {
     pusToArray() {
+      this.slidesPush = []
       //console.log(this.slidesPush);
       let JSONData = productJson[this.$route.params.productid].IMGSlider;
       console.log(JSONData)
@@ -143,5 +144,14 @@ export default {
   created() {
     this.pusToArray();
   },
+  
+  watch: {
+    $route(to, from) {
+      if (to !== from) {
+        this.pusToArray()
+      }
+    }
+  }
+  
 };
 </script>
