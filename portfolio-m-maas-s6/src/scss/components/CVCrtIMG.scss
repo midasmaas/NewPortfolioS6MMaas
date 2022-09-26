@@ -119,11 +119,26 @@
     height: fit-content;
 
     width: 67%;
-    padding-top: 8px;
+    padding-top: 30px;
     left: 0%;
-    @include media-breakpoint-up(lg) {
-    width: 67%;
-    padding-top: 40px;
-    left: -6%;
+    @include media-breakpoint-up(sm) {
+        padding-top: 40px;
     }
+    @include media-breakpoint-up(md) {
+        padding-top: 60px;
+    }
+    @include media-breakpoint-up(lg) {
+        padding-top: 45px;
+        left: -6%;
+    }
+    @include media-breakpoint-up(xl) {
+    width: 67%;
+    padding-top: 55px;
+    
+    }
+    @include media-breakpoint-up(xxxl) {
+        padding-top: 80px;
+        
+    }
+    
 }
