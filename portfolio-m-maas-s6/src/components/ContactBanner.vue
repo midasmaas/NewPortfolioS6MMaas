@@ -25,11 +25,11 @@
       <a href="https://wa.me/31613733474" target="_blank" rel="noopener noreferrer" class="ContactBanner_bottomBar _Icon_left">
           <img class="_icon" src="../assets/WAIcon.png" />
       </a>
-      <a href="https://www.facebook.com/midas.maas" target="_blank" rel="noopener noreferrer"  class="ContactBanner_bottomBar ">
-          <img class="_FBIcon" src="../assets/FBIcon.png" />
-      </a>
       <a href="https://www.linkedin.com/in/midas-maas-82142b5b/" target="_blank" rel="noopener noreferrer"  class="ContactBanner_bottomBar">
           <img class="_icon" src="../assets/LIIcon.png" />
+      </a>
+      <a href="mailto:midasmaas@gmail.com" target="_blank" rel="noopener noreferrer"  class="ContactBanner_bottomBar">
+          <img class="_icon" src="../assets/EMailIcon.png" />
       </a>
       <a href="https://open.spotify.com/playlist/2vsslP12Y9LOqOA91YVHFA?si=8f1d55d8a9de4222" target="_blank" rel="noopener noreferrer"  class="ContactBanner_bottomBar _right">
           <img class="_icon" src="../assets/spotify-128.png" />

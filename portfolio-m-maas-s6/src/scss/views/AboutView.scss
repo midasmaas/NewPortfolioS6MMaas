@@ -230,6 +230,8 @@ overflow: hidden;
 .journalistiek_IMG_container{
   margin: 32px 0 32px 0;
   display: flex;
+  align-items: flex-start;
+  flex-direction: column;
   grid-column: 1/5;
   @include media-breakpoint-up(xs){
   grid-row: 3;
@@ -246,6 +248,7 @@ overflow: hidden;
     justify-self: center;
     align-self: center;
     width: 100%;
+    align-items: flex-start;
     @include media-breakpoint-up(lg){
       width: 90%;
     }
@@ -263,6 +266,8 @@ overflow: hidden;
 .ICT_IMG_container{
   display: flex;
   grid-column: 1/5;
+  align-items: flex-start;
+  flex-direction: column;
   @include media-breakpoint-up(sm){
   grid-column: 5/9;
   }
@@ -281,6 +286,8 @@ overflow: hidden;
 .Stage_IMG_container{
   display: flex;
   grid-column: 1/5;
+  align-items: flex-start;
+  flex-direction: column;
   @include media-breakpoint-up(lg){
     grid-column: 1/6;
   }
