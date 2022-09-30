@@ -13,7 +13,7 @@
 
           <div class="DoelstellingContext_text_container">
             <div class="Conclusie_div">
-              <div class="DoelstellingContext_text">
+              <div class="DoelstellingContext_text borderTop_none">
                 <h1>Het</h1>
                 <h1>Resultaat</h1>
 

@@ -207,9 +207,8 @@
     align-self: start;
     width: 100%;
     padding: 8px;
-    @include media-breakpoint-up(sm){
     border-bottom: 8px solid;
-    }
+    
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
