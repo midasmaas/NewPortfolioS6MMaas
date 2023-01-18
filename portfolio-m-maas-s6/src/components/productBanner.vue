@@ -35,7 +35,7 @@
           <div class="product_banner_bottomBar _EmptyInfo"></div>
         </div>
 
-        <p class="product_banner_Year">2022</p>
+        <p class="product_banner_Year">{{dataForProductBanner.productYear}}</p>
       </div>
       </div>
 </template>
